@@ -1,0 +1,752 @@
+{
+ "snapforge": {
+  "tag_name": "v0.1.2",
+  "name": "SnapForge 0.1.2",
+  "published_at": "2026-11-15T11:54:12Z",
+  "html_url": "https://github.com/zheerkhalid/snapforge/releases/tag/v0.1.2",
+  "body": "**Easier tool sizing in the image editor**\n\n- **See the size on the canvas**: pencil, highlighter, eraser and clone stamp show a ring at the pointer that is exactly as big as the stroke. Lines, arrows and shapes show a dot of the stroke width.\n- **Size slider** in the tool bar, next to the value field (which still accepts exact numbers).\n- **Quick resize**: `[` and `]`, or `Alt` + mouse wheel. A small label shows the new size.\n- The same controls resize a selected annotation, as a single undo step.\n\n![Brush size preview](https://raw.githubusercontent.com/zheerkhalid/snapforge/main/docs/screenshots/editor-brush-size.png)",
+  "assets": [
+   {
+    "name": "SnapForge-0.1.2-portable-x64.zip",
+    "size": 5574733,
+    "digest": "sha256:6e167eb97c466e7ebab4a0e7e2e636f38be56fece201aafe56bfee3d42b7f38a",
+    "browser_download_url": "https://github.com/zheerkhalid/snapforge/releases/download/v0.1.2/SnapForge-0.1.2-portable-x64.zip"
+   },
+   {
+    "name": "SnapForge-Setup.exe",
+    "size": 6133367,
+    "digest": "sha256:42deb88fe122a88437d8e000d92e7bd41aff28edfba739f6ff7ad59de4210d8e",
+    "browser_download_url": "https://github.com/zheerkhalid/snapforge/releases/download/v0.1.2/SnapForge-Setup.exe"
+   },
+   {
+    "name": "SnapForge.exe",
+    "size": 12111360,
+    "digest": "sha256:fd829d131d2fa20bd23d686864bde2d9fa045fef42cec67ac2664c6175f95166",
+    "browser_download_url": "https://github.com/zheerkhalid/snapforge/releases/download/v0.1.2/SnapForge.exe"
+   }
+  ]
+ },
+ "reelforge": {
+  "tag_name": "v1.0.1",
+  "name": "ReelForge 1.0.1",
+  "published_at": "2026-11-15T12:49:08Z",
+  "html_url": "https://github.com/zheerkhalid/reelforge/releases/tag/v1.0.1",
+  "body": "- **HEVC (H.265) front and centre**: two one-click picks at the top of *Recommended*, \"HEVC / H.265: smaller file, same quality\" and the new \"HEVC / H.265: very small file\". HEVC uses your graphics card when it supports it (NVENC, AMF, Quick Sync).\n- **Installer**: `ReelForge-Setup.exe` adds Start Menu and desktop shortcuts and an uninstaller.\n- **Portable ZIP** alongside the bare EXE.\n\nRequires FFmpeg: `winget install Gyan.FFmpeg`, or put `ffmpeg.exe` and `ffprobe.exe` next to `ReelForge.exe`.",
+  "assets": [
+   {
+    "name": "ReelForge-1.0.1-portable-x64.zip",
+    "size": 2894181,
+    "digest": "sha256:0bd45babd5526ec1ac8850afbb4eaf4595c58df9103a7e1307881c0d0e14e8c4",
+    "browser_download_url": "https://github.com/zheerkhalid/reelforge/releases/download/v1.0.1/ReelForge-1.0.1-portable-x64.zip"
+   },
+   {
+    "name": "ReelForge-Setup.exe",
+    "size": 4331656,
+    "digest": "sha256:d70015bfb719df3d9a8fa828e5c5d899ae01736cf5ca1147f37cb0b940c0fc17",
+    "browser_download_url": "https://github.com/zheerkhalid/reelforge/releases/download/v1.0.1/ReelForge-Setup.exe"
+   },
+   {
+    "name": "ReelForge.exe",
+    "size": 6414336,
+    "digest": "sha256:e3085549338b38a76e1e7bc096105d6637f4288dd124bfcc0386c588696e7fee",
+    "browser_download_url": "https://github.com/zheerkhalid/reelforge/releases/download/v1.0.1/ReelForge.exe"
+   }
+  ]
+ },
+ "unforge": {
+  "tag_name": "v1.0.0",
+  "name": "UnForge 1.0.0",
+  "published_at": "2026-11-15T12:22:03Z",
+  "html_url": "https://github.com/zheerkhalid/unforge/releases/tag/v1.0.0",
+  "body": "First release of **UnForge**, a modern uninstaller for Windows by [Zheer Khalid](https://zheer.dev).\n\n- Lists desktop programs and Microsoft Store apps, with search, filters and batch uninstall\n- Guided uninstall: runs the program's uninstaller, then scans for leftover files, registry entries, shortcuts, services and tasks\n- You review every leftover before deletion; only items marked Safe are pre-ticked\n- Registry backed up before removal, files go to the Recycle Bin by default\n- Forced uninstall, startup manager, broken-entry cleanup, history with registry restore, CSV/HTML export\n- Single portable EXE (4.6 MB)\n\n**Note:** this is a first release. The uninstall flow is covered by an automated end-to-end test on a fake program; try it on a program you don't mind removing first, and review *Likely* and *Unsure* items before ticking them.",
+  "assets": [
+   {
+    "name": "UnForge-1.0.0-portable-x64.zip",
+    "size": 2439409,
+    "digest": "sha256:fe7a6c4f926f45c6584025675f60f813c3a34662cb4208e8a0822e19c1ba230a",
+    "browser_download_url": "https://github.com/zheerkhalid/unforge/releases/download/v1.0.0/UnForge-1.0.0-portable-x64.zip"
+   },
+   {
+    "name": "UnForge-Setup.exe",
+    "size": 4004054,
+    "digest": "sha256:a19dc0933f4fe2106917d5cd6244c494a03ad62b19f739569867327f5f4fd8b9",
+    "browser_download_url": "https://github.com/zheerkhalid/unforge/releases/download/v1.0.0/UnForge-Setup.exe"
+   },
+   {
+    "name": "UnForge.exe",
+    "size": 4820480,
+    "digest": "sha256:81b9f0e1edcb4c8b6e0f06bfdad6436e8dd1d0fed86c56d9cf0318cd655cf54c",
+    "browser_download_url": "https://github.com/zheerkhalid/unforge/releases/download/v1.0.0/UnForge.exe"
+   }
+  ]
+ },
+ "keepforge": {
+  "tag_name": "v1.0.1",
+  "name": "KeepForge 1.0.1",
+  "published_at": "2026-11-16T07:39:12Z",
+  "html_url": "https://github.com/zheerkhalid/keepforge/releases/tag/v1.0.1",
+  "body": "- Changing the master password, key file or key stretching now asks for the **current master password** (and key file) first.\n- Fixed dialogs that could open as a large empty panel with only the buttons visible.\n\nKeepForge has not been independently audited. See [docs/SECURITY.md](https://github.com/zheerkhalid/keepforge/blob/main/docs/SECURITY.md).",
+  "assets": [
+   {
+    "name": "KeepForge-1.0.1-portable-x64.zip",
+    "size": 3904141,
+    "digest": "sha256:acf41626cfae9b1dda5a0a23ee792591c13ac87d373c8559472e0e45d2a4743e",
+    "browser_download_url": "https://github.com/zheerkhalid/keepforge/releases/download/v1.0.1/KeepForge-1.0.1-portable-x64.zip"
+   },
+   {
+    "name": "KeepForge-Setup.exe",
+    "size": 5071416,
+    "digest": "sha256:c3d79ac6407a215d1ae7a71308b265840163af258bd62b500174d3a00f995339",
+    "browser_download_url": "https://github.com/zheerkhalid/keepforge/releases/download/v1.0.1/KeepForge-Setup.exe"
+   },
+   {
+    "name": "KeepForge.exe",
+    "size": 8208384,
+    "digest": "sha256:837c8bb75cfc48eb54cedb3b63967ed99b3955aec21b4f102b17dda8d49965a4",
+    "browser_download_url": "https://github.com/zheerkhalid/keepforge/releases/download/v1.0.1/KeepForge.exe"
+   }
+  ]
+ },
+ "shredforge": {
+  "tag_name": "v1.0.0",
+  "name": "ShredForge 1.0.0",
+  "published_at": "2026-11-16T11:55:25Z",
+  "html_url": "https://github.com/zheerkhalid/shredforge/releases/tag/v1.0.0",
+  "body": "First release.\n\n- **ShredForge-Setup.exe**: per-user installer with the Explorer right-click menu\n- **ShredForge-1.0.0-portable-x64.zip**: unzip and run\n- **ShredForge.exe**: the bare EXE\n\nShredding cannot be undone. Whole-partition and whole-disk wipes have been tested on disk image files only, not yet on physical drives.",
+  "assets": [
+   {
+    "name": "ShredForge-1.0.0-portable-x64.zip",
+    "size": 2361808,
+    "digest": "sha256:42c7518b1534dd994ac8e54b8a19c2307596912e73eecf13000e4bd7ea69db54",
+    "browser_download_url": "https://github.com/zheerkhalid/shredforge/releases/download/v1.0.0/ShredForge-1.0.0-portable-x64.zip"
+   },
+   {
+    "name": "ShredForge-Setup.exe",
+    "size": 3955066,
+    "digest": "sha256:e83f6b241b4ebcfc4b252c4ec892c6d21e28e6ce0ee0820322f281d16d193f35",
+    "browser_download_url": "https://github.com/zheerkhalid/shredforge/releases/download/v1.0.0/ShredForge-Setup.exe"
+   },
+   {
+    "name": "ShredForge.exe",
+    "size": 4673536,
+    "digest": "sha256:fcb1a7c2fc6d4c1bda617a1193c519c2d347ddcdb32a0d94368ea3d043e98aa4",
+    "browser_download_url": "https://github.com/zheerkhalid/shredforge/releases/download/v1.0.0/ShredForge.exe"
+   }
+  ]
+ },
+ "bootforge": {
+  "tag_name": "v1.0.0",
+  "name": "BootForge 1.0.0",
+  "published_at": "2026-11-16T12:32:56Z",
+  "html_url": "https://github.com/zheerkhalid/bootforge/releases/tag/v1.0.0",
+  "body": "First release.\n\n- **BootForge-Setup.exe**: installer\n- **BootForge-1.0.0-portable-x64.zip**: unzip and run\n- **BootForge.exe**: the bare EXE\n\nEarly release: tested against disk image files only. It has not yet written a real USB drive or been booted on real hardware. Writing erases the chosen drive.",
+  "assets": [
+   {
+    "name": "BootForge-1.0.0-portable-x64.zip",
+    "size": 2532325,
+    "digest": "sha256:043da32dffedecc265a2d9f78ceb3751dd99c245ea218a2ab6eac32c65e96ef0",
+    "browser_download_url": "https://github.com/zheerkhalid/bootforge/releases/download/v1.0.0/BootForge-1.0.0-portable-x64.zip"
+   },
+   {
+    "name": "BootForge-Setup.exe",
+    "size": 4081880,
+    "digest": "sha256:599e2cae8218558a1e84ae4392fcdc2c9d847fe188bda8aef18d43f8dd5505b0",
+    "browser_download_url": "https://github.com/zheerkhalid/bootforge/releases/download/v1.0.0/BootForge-Setup.exe"
+   },
+   {
+    "name": "BootForge.exe",
+    "size": 4986880,
+    "digest": "sha256:2ffdb8cc5f35254d116262e39c67f2e93014f4bdb848a05c502cdfa121dab383",
+    "browser_download_url": "https://github.com/zheerkhalid/bootforge/releases/download/v1.0.0/BootForge.exe"
+   }
+  ]
+ },
+ "wireforge": {
+  "tag_name": "v1.0.0",
+  "name": "WireForge 1.0.0",
+  "published_at": "2026-11-16T12:40:37Z",
+  "html_url": "https://github.com/zheerkhalid/wireforge/releases/tag/v1.0.0",
+  "body": "First release.\n\n- **WireForge-Setup.exe**: per-user installer\n- **WireForge-1.0.0-portable-x64.zip**: unzip and run\n- **WireForge.exe**: the bare EXE\n\nPer-app byte counts need administrator rights and have been tested with sample data only so far.",
+  "assets": [
+   {
+    "name": "WireForge-1.0.0-portable-x64.zip",
+    "size": 3358086,
+    "digest": "sha256:5f80b75d616e27cf3ba936ba48c3f9f91db8c082d71e8a031ce36575b27a6987",
+    "browser_download_url": "https://github.com/zheerkhalid/wireforge/releases/download/v1.0.0/WireForge-1.0.0-portable-x64.zip"
+   },
+   {
+    "name": "WireForge-Setup.exe",
+    "size": 4642361,
+    "digest": "sha256:e6e79b53aedda6bf94f4521ce94bd803699a3d3b646a5011af5c7c24133850a9",
+    "browser_download_url": "https://github.com/zheerkhalid/wireforge/releases/download/v1.0.0/WireForge-Setup.exe"
+   },
+   {
+    "name": "WireForge.exe",
+    "size": 6677504,
+    "digest": "sha256:b9ef78cf41cee482210741705fd0f110934e079b2d27eeee58d06faa7844ba1b",
+    "browser_download_url": "https://github.com/zheerkhalid/wireforge/releases/download/v1.0.0/WireForge.exe"
+   }
+  ]
+ },
+ "twinforge": {
+  "tag_name": "v1.0.0",
+  "name": "TwinForge 1.0.0",
+  "published_at": "2026-11-16T12:56:22Z",
+  "html_url": "https://github.com/zheerkhalid/twinforge/releases/tag/v1.0.0",
+  "body": "First release.\n\n- **TwinForge-Setup.exe**: per-user installer\n- **TwinForge-1.0.0-portable-x64.zip**: unzip and run\n- **TwinForge.exe**: the bare EXE\n\nFiles go to the Recycle Bin by default, and the last copy in a group is never removed.",
+  "assets": [
+   {
+    "name": "TwinForge-1.0.0-portable-x64.zip",
+    "size": 3498542,
+    "digest": "sha256:0b0c14e17de502bed00d44f09c897abb254788cfb967c1f4538925ea9c38a1f5",
+    "browser_download_url": "https://github.com/zheerkhalid/twinforge/releases/download/v1.0.0/TwinForge-1.0.0-portable-x64.zip"
+   },
+   {
+    "name": "TwinForge-Setup.exe",
+    "size": 4706389,
+    "digest": "sha256:d130157067e114d44bc9c4cf4edb8ab95383a96fb223a5c0661714c23486f9a5",
+    "browser_download_url": "https://github.com/zheerkhalid/twinforge/releases/download/v1.0.0/TwinForge-Setup.exe"
+   },
+   {
+    "name": "TwinForge.exe",
+    "size": 7337984,
+    "digest": "sha256:7967359e16fe9cea18abb0b274a1a2441aa2e35c915208582289569fa50a2346",
+    "browser_download_url": "https://github.com/zheerkhalid/twinforge/releases/download/v1.0.0/TwinForge.exe"
+   }
+  ]
+ },
+ "rescueforge": {
+  "tag_name": "v1.0.0",
+  "name": "RescueForge 1.0.0",
+  "published_at": "2026-11-16T22:27:32Z",
+  "html_url": "https://github.com/zheerkhalid/rescueforge/releases/tag/v1.0.0",
+  "body": "First release.\n\n- **RescueForge-1.0.0-portable-x64.zip**: unzip and run. Use this if the lost files were on your main drive\n- **RescueForge-Setup.exe**: installer\n- **RescueForge.exe**: the bare EXE\n\nTested end to end on disk images. Reading a physical drive directly has not yet been tested on real hardware. Always recover to a different drive.",
+  "assets": [
+   {
+    "name": "RescueForge-1.0.0-portable-x64.zip",
+    "size": 3446787,
+    "digest": "sha256:b277f1319b9b1d8e71e8d8e47d0f765acaad94affcfa8380e1c44b090fc55af2",
+    "browser_download_url": "https://github.com/zheerkhalid/rescueforge/releases/download/v1.0.0/RescueForge-1.0.0-portable-x64.zip"
+   },
+   {
+    "name": "RescueForge-Setup.exe",
+    "size": 4623731,
+    "digest": "sha256:db56513903376253b7362272053d8b6a364c155e0f6427c8c9d68d039a02f45a",
+    "browser_download_url": "https://github.com/zheerkhalid/rescueforge/releases/download/v1.0.0/RescueForge-Setup.exe"
+   },
+   {
+    "name": "RescueForge.exe",
+    "size": 7541248,
+    "digest": "sha256:491890e83c8ad2ec76b27fad9cbbf21cd6388807df68830bfed17f70525bb953",
+    "browser_download_url": "https://github.com/zheerkhalid/rescueforge/releases/download/v1.0.0/RescueForge.exe"
+   }
+  ]
+ },
+ "spaceforge": {
+  "tag_name": "v1.0.0",
+  "name": "SpaceForge 1.0.0",
+  "published_at": "2026-11-16T22:26:17Z",
+  "html_url": "https://github.com/zheerkhalid/spaceforge/releases/tag/v1.0.0",
+  "body": "First release.\n\n- **SpaceForge-Setup.exe**: per-user installer\n- **SpaceForge-1.0.0-portable-x64.zip**: unzip and run\n- **SpaceForge.exe**: the bare EXE\n\nThe fast NTFS scan has been tested against synthetic images only so far; it falls back to the normal folder walk automatically.",
+  "assets": [
+   {
+    "name": "SpaceForge-1.0.0-portable-x64.zip",
+    "size": 2479231,
+    "digest": "sha256:229c96fc1459abf5fa9b543d5af993cb00d8f248d5f2365326851ea9f75c556c",
+    "browser_download_url": "https://github.com/zheerkhalid/spaceforge/releases/download/v1.0.0/SpaceForge-1.0.0-portable-x64.zip"
+   },
+   {
+    "name": "SpaceForge-Setup.exe",
+    "size": 4035758,
+    "digest": "sha256:7c845660dae33cf07761d0517578026b982cdef36918f371c08096260bb0ad5b",
+    "browser_download_url": "https://github.com/zheerkhalid/spaceforge/releases/download/v1.0.0/SpaceForge-Setup.exe"
+   },
+   {
+    "name": "SpaceForge.exe",
+    "size": 4898816,
+    "digest": "sha256:82bb9d27f14b04b28e29124d54754a18c0390cd7cf7c145993e18f69a69063f3",
+    "browser_download_url": "https://github.com/zheerkhalid/spaceforge/releases/download/v1.0.0/SpaceForge.exe"
+   }
+  ]
+ },
+ "findforge": {
+  "tag_name": "v1.0.0",
+  "name": "FindForge 1.0.0",
+  "published_at": "2026-11-16T22:39:05Z",
+  "html_url": "https://github.com/zheerkhalid/findforge/releases/tag/v1.0.0",
+  "body": "First release.\n\n- **FindForge-Setup.exe**: installer\n- **FindForge-1.0.0-portable-x64.zip**: unzip and run\n- **FindForge.exe**: the bare EXE\n\nThe standard index has been run on a real drive with 5.9 million files. The fastest method (as administrator) has been tested against synthetic data only so far.",
+  "assets": [
+   {
+    "name": "FindForge-1.0.0-portable-x64.zip",
+    "size": 3153436,
+    "digest": "sha256:2ae149f4d61455d1d603cae2b2e47460be4de998adb13c361dc60583440188e9",
+    "browser_download_url": "https://github.com/zheerkhalid/findforge/releases/download/v1.0.0/FindForge-1.0.0-portable-x64.zip"
+   },
+   {
+    "name": "FindForge-Setup.exe",
+    "size": 4505779,
+    "digest": "sha256:10bdabfa598c2377993fb82c179fd4f69d55ece0b17e7d9a5ab68996577c02cc",
+    "browser_download_url": "https://github.com/zheerkhalid/findforge/releases/download/v1.0.0/FindForge-Setup.exe"
+   },
+   {
+    "name": "FindForge.exe",
+    "size": 6459392,
+    "digest": "sha256:0601a71be41b6db759a45978e0c643fd2b9edfec62039a079e1031b72d549141",
+    "browser_download_url": "https://github.com/zheerkhalid/findforge/releases/download/v1.0.0/FindForge.exe"
+   }
+  ]
+ },
+ "hourforge": {
+  "url": "https://api.github.com/repos/zheerkhalid/hourforge/releases/447707229",
+  "assets_url": "https://api.github.com/repos/zheerkhalid/hourforge/releases/447707229/assets",
+  "upload_url": "https://uploads.github.com/repos/zheerkhalid/hourforge/releases/447707229/assets{?name,label}",
+  "html_url": "https://github.com/zheerkhalid/hourforge/releases/tag/v1.0.0",
+  "id": 447707229,
+  "author": {
+   "login": "zheerkhalid",
+   "id": 28491383,
+   "node_id": "MDQ6VXNlcjI4NDkxMzgz",
+   "avatar_url": "https://avatars.githubusercontent.com/u/28491383?v=4",
+   "gravatar_id": "",
+   "url": "https://api.github.com/users/zheerkhalid",
+   "html_url": "https://github.com/zheerkhalid",
+   "followers_url": "https://api.github.com/users/zheerkhalid/followers",
+   "following_url": "https://api.github.com/users/zheerkhalid/following{/other_user}",
+   "gists_url": "https://api.github.com/users/zheerkhalid/gists{/gist_id}",
+   "starred_url": "https://api.github.com/users/zheerkhalid/starred{/owner}{/repo}",
+   "subscriptions_url": "https://api.github.com/users/zheerkhalid/subscriptions",
+   "organizations_url": "https://api.github.com/users/zheerkhalid/orgs",
+   "repos_url": "https://api.github.com/users/zheerkhalid/repos",
+   "events_url": "https://api.github.com/users/zheerkhalid/events{/privacy}",
+   "received_events_url": "https://api.github.com/users/zheerkhalid/received_events",
+   "type": "User",
+   "user_view_type": "public",
+   "site_admin": false
+  },
+  "node_id": "RE_kwDOVw_L2c4ar3hd",
+  "tag_name": "v1.0.0",
+  "target_commitish": "main",
+  "name": "HourForge 1.0.0",
+  "draft": false,
+  "immutable": false,
+  "prerelease": false,
+  "created_at": "2026-11-16T22:42:29Z",
+  "updated_at": "2026-11-16T22:42:50Z",
+  "published_at": "2026-11-16T22:42:50Z",
+  "assets": [
+   {
+    "url": "https://api.github.com/repos/zheerkhalid/hourforge/releases/assets/756728956",
+    "id": 756728956,
+    "node_id": "RA_kwDOVw_L2c4tGsR8",
+    "name": "HourForge-1.0.0-portable-x64.zip",
+    "label": "",
+    "uploader": {
+     "login": "zheerkhalid",
+     "id": 28491383,
+     "node_id": "MDQ6VXNlcjI4NDkxMzgz",
+     "avatar_url": "https://avatars.githubusercontent.com/u/28491383?v=4",
+     "gravatar_id": "",
+     "url": "https://api.github.com/users/zheerkhalid",
+     "html_url": "https://github.com/zheerkhalid",
+     "followers_url": "https://api.github.com/users/zheerkhalid/followers",
+     "following_url": "https://api.github.com/users/zheerkhalid/following{/other_user}",
+     "gists_url": "https://api.github.com/users/zheerkhalid/gists{/gist_id}",
+     "starred_url": "https://api.github.com/users/zheerkhalid/starred{/owner}{/repo}",
+     "subscriptions_url": "https://api.github.com/users/zheerkhalid/subscriptions",
+     "organizations_url": "https://api.github.com/users/zheerkhalid/orgs",
+     "repos_url": "https://api.github.com/users/zheerkhalid/repos",
+     "events_url": "https://api.github.com/users/zheerkhalid/events{/privacy}",
+     "received_events_url": "https://api.github.com/users/zheerkhalid/received_events",
+     "type": "User",
+     "user_view_type": "public",
+     "site_admin": false
+    },
+    "content_type": "application/zip",
+    "state": "uploaded",
+    "size": 3107436,
+    "digest": "sha256:584a3c14cf51eec25b45dfd07c8c7a2758e90202d6301473b9ef3bc905692926",
+    "download_count": 0,
+    "created_at": "2026-11-16T22:42:47Z",
+    "updated_at": "2026-11-16T22:42:48Z",
+    "browser_download_url": "https://github.com/zheerkhalid/hourforge/releases/download/v1.0.0/HourForge-1.0.0-portable-x64.zip"
+   },
+   {
+    "url": "https://api.github.com/repos/zheerkhalid/hourforge/releases/assets/756728968",
+    "id": 756728968,
+    "node_id": "RA_kwDOVw_L2c4tGsSI",
+    "name": "HourForge-Setup.exe",
+    "label": "",
+    "uploader": {
+     "login": "zheerkhalid",
+     "id": 28491383,
+     "node_id": "MDQ6VXNlcjI4NDkxMzgz",
+     "avatar_url": "https://avatars.githubusercontent.com/u/28491383?v=4",
+     "gravatar_id": "",
+     "url": "https://api.github.com/users/zheerkhalid",
+     "html_url": "https://github.com/zheerkhalid",
+     "followers_url": "https://api.github.com/users/zheerkhalid/followers",
+     "following_url": "https://api.github.com/users/zheerkhalid/following{/other_user}",
+     "gists_url": "https://api.github.com/users/zheerkhalid/gists{/gist_id}",
+     "starred_url": "https://api.github.com/users/zheerkhalid/starred{/owner}{/repo}",
+     "subscriptions_url": "https://api.github.com/users/zheerkhalid/subscriptions",
+     "organizations_url": "https://api.github.com/users/zheerkhalid/orgs",
+     "repos_url": "https://api.github.com/users/zheerkhalid/repos",
+     "events_url": "https://api.github.com/users/zheerkhalid/events{/privacy}",
+     "received_events_url": "https://api.github.com/users/zheerkhalid/received_events",
+     "type": "User",
+     "user_view_type": "public",
+     "site_admin": false
+    },
+    "content_type": "application/x-msdownload",
+    "state": "uploaded",
+    "size": 4493676,
+    "digest": "sha256:692d3f792581dfaf9113cdb2004ae1ec2b23d291d66fa8ec1ada1645fd34344e",
+    "download_count": 0,
+    "created_at": "2026-11-16T22:42:47Z",
+    "updated_at": "2026-11-16T22:42:49Z",
+    "browser_download_url": "https://github.com/zheerkhalid/hourforge/releases/download/v1.0.0/HourForge-Setup.exe"
+   },
+   {
+    "url": "https://api.github.com/repos/zheerkhalid/hourforge/releases/assets/756728954",
+    "id": 756728954,
+    "node_id": "RA_kwDOVw_L2c4tGsR6",
+    "name": "HourForge.exe",
+    "label": "",
+    "uploader": {
+     "login": "zheerkhalid",
+     "id": 28491383,
+     "node_id": "MDQ6VXNlcjI4NDkxMzgz",
+     "avatar_url": "https://avatars.githubusercontent.com/u/28491383?v=4",
+     "gravatar_id": "",
+     "url": "https://api.github.com/users/zheerkhalid",
+     "html_url": "https://github.com/zheerkhalid",
+     "followers_url": "https://api.github.com/users/zheerkhalid/followers",
+     "following_url": "https://api.github.com/users/zheerkhalid/following{/other_user}",
+     "gists_url": "https://api.github.com/users/zheerkhalid/gists{/gist_id}",
+     "starred_url": "https://api.github.com/users/zheerkhalid/starred{/owner}{/repo}",
+     "subscriptions_url": "https://api.github.com/users/zheerkhalid/subscriptions",
+     "organizations_url": "https://api.github.com/users/zheerkhalid/orgs",
+     "repos_url": "https://api.github.com/users/zheerkhalid/repos",
+     "events_url": "https://api.github.com/users/zheerkhalid/events{/privacy}",
+     "received_events_url": "https://api.github.com/users/zheerkhalid/received_events",
+     "type": "User",
+     "user_view_type": "public",
+     "site_admin": false
+    },
+    "content_type": "application/x-msdownload",
+    "state": "uploaded",
+    "size": 6391808,
+    "digest": "sha256:1457e52ebcab6bf19fdbe020597a2f623f8076e7e57cd996e5bca14bf0896baf",
+    "download_count": 0,
+    "created_at": "2026-11-16T22:42:47Z",
+    "updated_at": "2026-11-16T22:42:49Z",
+    "browser_download_url": "https://github.com/zheerkhalid/hourforge/releases/download/v1.0.0/HourForge.exe"
+   }
+  ],
+  "tarball_url": "https://api.github.com/repos/zheerkhalid/hourforge/tarball/v1.0.0",
+  "zipball_url": "https://api.github.com/repos/zheerkhalid/hourforge/zipball/v1.0.0",
+  "body": "First release.\n\n- **HourForge-Setup.exe**: per-user installer\n- **HourForge-1.0.0-portable-x64.zip**: unzip and run\n- **HourForge.exe**: the bare EXE\n\nHourForge makes no network requests; your data stays on your PC."
+ },
+ "pulseforge": {
+  "url": "https://api.github.com/repos/zheerkhalid/pulseforge/releases/447711045",
+  "assets_url": "https://api.github.com/repos/zheerkhalid/pulseforge/releases/447711045/assets",
+  "upload_url": "https://uploads.github.com/repos/zheerkhalid/pulseforge/releases/447711045/assets{?name,label}",
+  "html_url": "https://github.com/zheerkhalid/pulseforge/releases/tag/v1.0.0",
+  "id": 447711045,
+  "author": {
+   "login": "zheerkhalid",
+   "id": 28491383,
+   "node_id": "MDQ6VXNlcjI4NDkxMzgz",
+   "avatar_url": "https://avatars.githubusercontent.com/u/28491383?v=4",
+   "gravatar_id": "",
+   "url": "https://api.github.com/users/zheerkhalid",
+   "html_url": "https://github.com/zheerkhalid",
+   "followers_url": "https://api.github.com/users/zheerkhalid/followers",
+   "following_url": "https://api.github.com/users/zheerkhalid/following{/other_user}",
+   "gists_url": "https://api.github.com/users/zheerkhalid/gists{/gist_id}",
+   "starred_url": "https://api.github.com/users/zheerkhalid/starred{/owner}{/repo}",
+   "subscriptions_url": "https://api.github.com/users/zheerkhalid/subscriptions",
+   "organizations_url": "https://api.github.com/users/zheerkhalid/orgs",
+   "repos_url": "https://api.github.com/users/zheerkhalid/repos",
+   "events_url": "https://api.github.com/users/zheerkhalid/events{/privacy}",
+   "received_events_url": "https://api.github.com/users/zheerkhalid/received_events",
+   "type": "User",
+   "user_view_type": "public",
+   "site_admin": false
+  },
+  "node_id": "RE_kwDOVw_a6M4ar4dF",
+  "tag_name": "v1.0.0",
+  "target_commitish": "main",
+  "name": "PulseForge 1.0.0",
+  "draft": false,
+  "immutable": false,
+  "prerelease": false,
+  "created_at": "2026-11-16T22:47:20Z",
+  "updated_at": "2026-11-16T22:47:48Z",
+  "published_at": "2026-11-16T22:47:48Z",
+  "assets": [
+   {
+    "url": "https://api.github.com/repos/zheerkhalid/pulseforge/releases/assets/756742079",
+    "id": 756742079,
+    "node_id": "RA_kwDOVw_a6M4tGve_",
+    "name": "PulseForge-1.0.0-portable-x64.zip",
+    "label": "",
+    "uploader": {
+     "login": "zheerkhalid",
+     "id": 28491383,
+     "node_id": "MDQ6VXNlcjI4NDkxMzgz",
+     "avatar_url": "https://avatars.githubusercontent.com/u/28491383?v=4",
+     "gravatar_id": "",
+     "url": "https://api.github.com/users/zheerkhalid",
+     "html_url": "https://github.com/zheerkhalid",
+     "followers_url": "https://api.github.com/users/zheerkhalid/followers",
+     "following_url": "https://api.github.com/users/zheerkhalid/following{/other_user}",
+     "gists_url": "https://api.github.com/users/zheerkhalid/gists{/gist_id}",
+     "starred_url": "https://api.github.com/users/zheerkhalid/starred{/owner}{/repo}",
+     "subscriptions_url": "https://api.github.com/users/zheerkhalid/subscriptions",
+     "organizations_url": "https://api.github.com/users/zheerkhalid/orgs",
+     "repos_url": "https://api.github.com/users/zheerkhalid/repos",
+     "events_url": "https://api.github.com/users/zheerkhalid/events{/privacy}",
+     "received_events_url": "https://api.github.com/users/zheerkhalid/received_events",
+     "type": "User",
+     "user_view_type": "public",
+     "site_admin": false
+    },
+    "content_type": "application/zip",
+    "state": "uploaded",
+    "size": 2700879,
+    "digest": "sha256:1b148b96974fd8f84940dec1627aa034fbadb96b154843c1d0a8ee96004dcf88",
+    "download_count": 0,
+    "created_at": "2026-11-16T22:47:39Z",
+    "updated_at": "2026-11-16T22:47:44Z",
+    "browser_download_url": "https://github.com/zheerkhalid/pulseforge/releases/download/v1.0.0/PulseForge-1.0.0-portable-x64.zip"
+   },
+   {
+    "url": "https://api.github.com/repos/zheerkhalid/pulseforge/releases/assets/756742069",
+    "id": 756742069,
+    "node_id": "RA_kwDOVw_a6M4tGve1",
+    "name": "PulseForge-Setup.exe",
+    "label": "",
+    "uploader": {
+     "login": "zheerkhalid",
+     "id": 28491383,
+     "node_id": "MDQ6VXNlcjI4NDkxMzgz",
+     "avatar_url": "https://avatars.githubusercontent.com/u/28491383?v=4",
+     "gravatar_id": "",
+     "url": "https://api.github.com/users/zheerkhalid",
+     "html_url": "https://github.com/zheerkhalid",
+     "followers_url": "https://api.github.com/users/zheerkhalid/followers",
+     "following_url": "https://api.github.com/users/zheerkhalid/following{/other_user}",
+     "gists_url": "https://api.github.com/users/zheerkhalid/gists{/gist_id}",
+     "starred_url": "https://api.github.com/users/zheerkhalid/starred{/owner}{/repo}",
+     "subscriptions_url": "https://api.github.com/users/zheerkhalid/subscriptions",
+     "organizations_url": "https://api.github.com/users/zheerkhalid/orgs",
+     "repos_url": "https://api.github.com/users/zheerkhalid/repos",
+     "events_url": "https://api.github.com/users/zheerkhalid/events{/privacy}",
+     "received_events_url": "https://api.github.com/users/zheerkhalid/received_events",
+     "type": "User",
+     "user_view_type": "public",
+     "site_admin": false
+    },
+    "content_type": "application/x-msdownload",
+    "state": "uploaded",
+    "size": 4203033,
+    "digest": "sha256:5088074ea4efb30d693baf6ea089ecc88607cfee5a8d20aa038bfa3b613bdece",
+    "download_count": 0,
+    "created_at": "2026-11-16T22:47:39Z",
+    "updated_at": "2026-11-16T22:47:46Z",
+    "browser_download_url": "https://github.com/zheerkhalid/pulseforge/releases/download/v1.0.0/PulseForge-Setup.exe"
+   },
+   {
+    "url": "https://api.github.com/repos/zheerkhalid/pulseforge/releases/assets/756742071",
+    "id": 756742071,
+    "node_id": "RA_kwDOVw_a6M4tGve3",
+    "name": "PulseForge.exe",
+    "label": "",
+    "uploader": {
+     "login": "zheerkhalid",
+     "id": 28491383,
+     "node_id": "MDQ6VXNlcjI4NDkxMzgz",
+     "avatar_url": "https://avatars.githubusercontent.com/u/28491383?v=4",
+     "gravatar_id": "",
+     "url": "https://api.github.com/users/zheerkhalid",
+     "html_url": "https://github.com/zheerkhalid",
+     "followers_url": "https://api.github.com/users/zheerkhalid/followers",
+     "following_url": "https://api.github.com/users/zheerkhalid/following{/other_user}",
+     "gists_url": "https://api.github.com/users/zheerkhalid/gists{/gist_id}",
+     "starred_url": "https://api.github.com/users/zheerkhalid/starred{/owner}{/repo}",
+     "subscriptions_url": "https://api.github.com/users/zheerkhalid/subscriptions",
+     "organizations_url": "https://api.github.com/users/zheerkhalid/orgs",
+     "repos_url": "https://api.github.com/users/zheerkhalid/repos",
+     "events_url": "https://api.github.com/users/zheerkhalid/events{/privacy}",
+     "received_events_url": "https://api.github.com/users/zheerkhalid/received_events",
+     "type": "User",
+     "user_view_type": "public",
+     "site_admin": false
+    },
+    "content_type": "application/x-msdownload",
+    "state": "uploaded",
+    "size": 5407232,
+    "digest": "sha256:ad3e0ed95b1b4eec79d97c437a52183aca3ac88db233c92538ab80fc651d4df0",
+    "download_count": 0,
+    "created_at": "2026-11-16T22:47:39Z",
+    "updated_at": "2026-11-16T22:47:47Z",
+    "browser_download_url": "https://github.com/zheerkhalid/pulseforge/releases/download/v1.0.0/PulseForge.exe"
+   }
+  ],
+  "tarball_url": "https://api.github.com/repos/zheerkhalid/pulseforge/tarball/v1.0.0",
+  "zipball_url": "https://api.github.com/repos/zheerkhalid/pulseforge/zipball/v1.0.0",
+  "body": "First release.\n\n- **PulseForge-Setup.exe**: per-user installer\n- **PulseForge-1.0.0-portable-x64.zip**: unzip and run\n- **PulseForge.exe**: the bare EXE\n\nNo kernel driver is installed, so per-core temperatures, fan speeds and voltages are not available on most PCs."
+ },
+ "socketforge": {
+  "url": "https://api.github.com/repos/zheerkhalid/socketforge/releases/447712248",
+  "assets_url": "https://api.github.com/repos/zheerkhalid/socketforge/releases/447712248/assets",
+  "upload_url": "https://uploads.github.com/repos/zheerkhalid/socketforge/releases/447712248/assets{?name,label}",
+  "html_url": "https://github.com/zheerkhalid/socketforge/releases/tag/v1.0.0",
+  "id": 447712248,
+  "author": {
+   "login": "zheerkhalid",
+   "id": 28491383,
+   "node_id": "MDQ6VXNlcjI4NDkxMzgz",
+   "avatar_url": "https://avatars.githubusercontent.com/u/28491383?v=4",
+   "gravatar_id": "",
+   "url": "https://api.github.com/users/zheerkhalid",
+   "html_url": "https://github.com/zheerkhalid",
+   "followers_url": "https://api.github.com/users/zheerkhalid/followers",
+   "following_url": "https://api.github.com/users/zheerkhalid/following{/other_user}",
+   "gists_url": "https://api.github.com/users/zheerkhalid/gists{/gist_id}",
+   "starred_url": "https://api.github.com/users/zheerkhalid/starred{/owner}{/repo}",
+   "subscriptions_url": "https://api.github.com/users/zheerkhalid/subscriptions",
+   "organizations_url": "https://api.github.com/users/zheerkhalid/orgs",
+   "repos_url": "https://api.github.com/users/zheerkhalid/repos",
+   "events_url": "https://api.github.com/users/zheerkhalid/events{/privacy}",
+   "received_events_url": "https://api.github.com/users/zheerkhalid/received_events",
+   "type": "User",
+   "user_view_type": "public",
+   "site_admin": false
+  },
+  "node_id": "RE_kwDOVw_gFc4ar4v4",
+  "tag_name": "v1.0.0",
+  "target_commitish": "main",
+  "name": "SocketForge 1.0.0",
+  "draft": false,
+  "immutable": false,
+  "prerelease": false,
+  "created_at": "2026-11-16T22:49:00Z",
+  "updated_at": "2026-11-16T22:49:25Z",
+  "published_at": "2026-11-16T22:49:25Z",
+  "assets": [
+   {
+    "url": "https://api.github.com/repos/zheerkhalid/socketforge/releases/assets/756745875",
+    "id": 756745875,
+    "node_id": "RA_kwDOVw_gFc4tGwaT",
+    "name": "SocketForge-1.0.0-portable-x64.zip",
+    "label": "",
+    "uploader": {
+     "login": "zheerkhalid",
+     "id": 28491383,
+     "node_id": "MDQ6VXNlcjI4NDkxMzgz",
+     "avatar_url": "https://avatars.githubusercontent.com/u/28491383?v=4",
+     "gravatar_id": "",
+     "url": "https://api.github.com/users/zheerkhalid",
+     "html_url": "https://github.com/zheerkhalid",
+     "followers_url": "https://api.github.com/users/zheerkhalid/followers",
+     "following_url": "https://api.github.com/users/zheerkhalid/following{/other_user}",
+     "gists_url": "https://api.github.com/users/zheerkhalid/gists{/gist_id}",
+     "starred_url": "https://api.github.com/users/zheerkhalid/starred{/owner}{/repo}",
+     "subscriptions_url": "https://api.github.com/users/zheerkhalid/subscriptions",
+     "organizations_url": "https://api.github.com/users/zheerkhalid/orgs",
+     "repos_url": "https://api.github.com/users/zheerkhalid/repos",
+     "events_url": "https://api.github.com/users/zheerkhalid/events{/privacy}",
+     "received_events_url": "https://api.github.com/users/zheerkhalid/received_events",
+     "type": "User",
+     "user_view_type": "public",
+     "site_admin": false
+    },
+    "content_type": "application/zip",
+    "state": "uploaded",
+    "size": 2691529,
+    "digest": "sha256:3885640e5b54b4df9773b88abb83eeb084b8ba736d3bc734cf83f7e6225265f7",
+    "download_count": 0,
+    "created_at": "2026-11-16T22:49:18Z",
+    "updated_at": "2026-11-16T22:49:22Z",
+    "browser_download_url": "https://github.com/zheerkhalid/socketforge/releases/download/v1.0.0/SocketForge-1.0.0-portable-x64.zip"
+   },
+   {
+    "url": "https://api.github.com/repos/zheerkhalid/socketforge/releases/assets/756745884",
+    "id": 756745884,
+    "node_id": "RA_kwDOVw_gFc4tGwac",
+    "name": "SocketForge-Setup.exe",
+    "label": "",
+    "uploader": {
+     "login": "zheerkhalid",
+     "id": 28491383,
+     "node_id": "MDQ6VXNlcjI4NDkxMzgz",
+     "avatar_url": "https://avatars.githubusercontent.com/u/28491383?v=4",
+     "gravatar_id": "",
+     "url": "https://api.github.com/users/zheerkhalid",
+     "html_url": "https://github.com/zheerkhalid",
+     "followers_url": "https://api.github.com/users/zheerkhalid/followers",
+     "following_url": "https://api.github.com/users/zheerkhalid/following{/other_user}",
+     "gists_url": "https://api.github.com/users/zheerkhalid/gists{/gist_id}",
+     "starred_url": "https://api.github.com/users/zheerkhalid/starred{/owner}{/repo}",
+     "subscriptions_url": "https://api.github.com/users/zheerkhalid/subscriptions",
+     "organizations_url": "https://api.github.com/users/zheerkhalid/orgs",
+     "repos_url": "https://api.github.com/users/zheerkhalid/repos",
+     "events_url": "https://api.github.com/users/zheerkhalid/events{/privacy}",
+     "received_events_url": "https://api.github.com/users/zheerkhalid/received_events",
+     "type": "User",
+     "user_view_type": "public",
+     "site_admin": false
+    },
+    "content_type": "application/x-msdownload",
+    "state": "uploaded",
+    "size": 4184746,
+    "digest": "sha256:d0b85f51c4ea9e9cd352678ea0700b0bc7d058d61aab8741e79d03344031ca24",
+    "download_count": 0,
+    "created_at": "2026-11-16T22:49:18Z",
+    "updated_at": "2026-11-16T22:49:24Z",
+    "browser_download_url": "https://github.com/zheerkhalid/socketforge/releases/download/v1.0.0/SocketForge-Setup.exe"
+   },
+   {
+    "url": "https://api.github.com/repos/zheerkhalid/socketforge/releases/assets/756745872",
+    "id": 756745872,
+    "node_id": "RA_kwDOVw_gFc4tGwaQ",
+    "name": "SocketForge.exe",
+    "label": "",
+    "uploader": {
+     "login": "zheerkhalid",
+     "id": 28491383,
+     "node_id": "MDQ6VXNlcjI4NDkxMzgz",
+     "avatar_url": "https://avatars.githubusercontent.com/u/28491383?v=4",
+     "gravatar_id": "",
+     "url": "https://api.github.com/users/zheerkhalid",
+     "html_url": "https://github.com/zheerkhalid",
+     "followers_url": "https://api.github.com/users/zheerkhalid/followers",
+     "following_url": "https://api.github.com/users/zheerkhalid/following{/other_user}",
+     "gists_url": "https://api.github.com/users/zheerkhalid/gists{/gist_id}",
+     "starred_url": "https://api.github.com/users/zheerkhalid/starred{/owner}{/repo}",
+     "subscriptions_url": "https://api.github.com/users/zheerkhalid/subscriptions",
+     "organizations_url": "https://api.github.com/users/zheerkhalid/orgs",
+     "repos_url": "https://api.github.com/users/zheerkhalid/repos",
+     "events_url": "https://api.github.com/users/zheerkhalid/events{/privacy}",
+     "received_events_url": "https://api.github.com/users/zheerkhalid/received_events",
+     "type": "User",
+     "user_view_type": "public",
+     "site_admin": false
+    },
+    "content_type": "application/x-msdownload",
+    "state": "uploaded",
+    "size": 5399552,
+    "digest": "sha256:f711404fa79a277db2ca2e488a78064a53365a472568c82e502a7fb30d744693",
+    "download_count": 0,
+    "created_at": "2026-11-16T22:49:18Z",
+    "updated_at": "2026-11-16T22:49:24Z",
+    "browser_download_url": "https://github.com/zheerkhalid/socketforge/releases/download/v1.0.0/SocketForge.exe"
+   }
+  ],
+  "tarball_url": "https://api.github.com/repos/zheerkhalid/socketforge/tarball/v1.0.0",
+  "zipball_url": "https://api.github.com/repos/zheerkhalid/socketforge/zipball/v1.0.0",
+  "body": "First release.\n\n- **SocketForge-Setup.exe**: per-user installer\n- **SocketForge-1.0.0-portable-x64.zip**: unzip and run\n- **SocketForge.exe**: the bare EXE\n\nSaving the real hosts file through the administrator prompt, stopping a service and the tray alerts have not yet been tested by hand."
+ }
+}

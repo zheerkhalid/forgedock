@@ -1,0 +1,56 @@
+[package]
+name = "forgedock"
+version = "1.0.0"
+edition = "2021"
+description = "App manager and marketplace for the Forge family of Windows apps: browse, install, update and remove them"
+authors = ["Zheer Khalid (https://zheer.dev)"]
+homepage = "https://zheer.dev"
+repository = "https://github.com/zheerkhalid/forgedock"
+license = "MIT"
+
+[lib]
+name = "forgedock"
+path = "src/lib.rs"
+
+[[bin]]
+name = "ForgeDock"
+path = "src/main.rs"
+test = false
+
+[dependencies]
+eframe = { version = "0.31.1", default-features = false, features = ["glow", "default_fonts"] }
+image = { version = "0.25", default-features = false, features = ["png"] }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+# Small, safe wrapper over the registry API.
+winreg = "0.52"
+# Native folder dialog (uses the system dialogs, no extra runtime).
+rfd = { version = "0.15", default-features = false }
+# SHA-256 of downloaded release files.
+sha2 = "0.10"
+
+[dependencies.windows]
+version = "0.58"
+features = [
+    "Win32_Foundation",
+    "Win32_Networking_WinHttp",
+    "Win32_UI_Shell",
+    "Win32_UI_WindowsAndMessaging",
+]
+
+[build-dependencies]
+tiny-skia = "0.11"
+embed-resource = "2.5"
+
+[profile.release]
+opt-level = 3
+lto = "fat"
+codegen-units = 1
+strip = true
+panic = "abort"
+
+[profile.dev]
+opt-level = 1
+
+[profile.dev.package."*"]
+opt-level = 2

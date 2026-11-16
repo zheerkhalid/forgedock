@@ -1,0 +1,835 @@
+{
+  "schema": 1,
+  "publisher": "Zheer Khalid",
+  "homepage": "https://zheer.dev",
+  "apps": [
+    {
+      "id": "snapforge",
+      "name": "SnapForge",
+      "tagline": "Capture, annotate and record your screen. Fast, native, and free.",
+      "category": "Media",
+      "status": "available",
+      "description": [
+        "A lightweight Windows screen capture, annotation and recording tool. It ships as a single EXE with no runtimes, no account, no cloud and no telemetry.",
+        "Every action takes one hotkey or one or two clicks. The defaults work without any setup and there is no sign-up. Advanced options sit under More, and Ctrl+K searches every command.",
+        "One self-contained SnapForge.exe with a static CRT. It needs no .NET, no VC++ redistributable and no FFmpeg DLLs. Run it portable, or install it per user without admin rights."
+      ],
+      "features": [
+        "Capture: active window, window or object, rectangle with a magnifier loupe, freehand, full screen and scrolling capture",
+        "Capture engines: Windows.Graphics.Capture (games, DirectX, HDR tone-mapped to SDR), DXGI Desktop Duplication and GDI",
+        "Output to the editor, clipboard, file (PNG, JPG, BMP, GIF, TIFF, TGA, PCX, WebP), printer, email, Office, OneNote and FTP/SFTP",
+        "Editor with tabs, unlimited undo, a command palette, crop, resize, rotate, selections and clone stamp",
+        "Effects with live preview: blur, sharpen, pixelate, spotlight, drop shadow, torn edge, watermark and more",
+        "Annotations: text, arrows, curves, shapes, highlighters, magnifier callouts, step stamps and emoji",
+        "Recorder: hardware H.264/AAC MP4, WMV and MP3, microphone and system audio, webcam picture-in-picture, crash-safe fragmented MP4",
+        "Video editor: timeline, trim and cut, timed annotations, zoom and pan keyframes, MP4 and animated GIF export",
+        "Pin captures as always-on-top windows, and Capture Text with Windows OCR",
+        "Screen tools: colour picker, magnifier, crosshair, focus spotlight, calibrated ruler with protractor",
+        "Combine images, convert images to a multi-page PDF, batch print",
+        "Command line automation, for example: SnapForge.exe --capture region --out clipboard"
+      ],
+      "specs": {
+        "platform": "Windows 10 and 11 (64-bit)",
+        "language": "Rust",
+        "licence": "MIT",
+        "needs_admin": "No",
+        "size": "About 12 MB (EXE), 6 MB installer"
+      },
+      "repo": "zheerkhalid/snapforge",
+      "accent": [
+        "#4F6BFF",
+        "#9B3CF0"
+      ],
+      "icon": "https://raw.githubusercontent.com/zheerkhalid/snapforge/main/docs/assets/snapforge-icon.png",
+      "screenshots": [
+        "https://raw.githubusercontent.com/zheerkhalid/snapforge/main/docs/screenshots/toolbar.png",
+        "https://raw.githubusercontent.com/zheerkhalid/snapforge/main/docs/screenshots/editor-draw.png",
+        "https://raw.githubusercontent.com/zheerkhalid/snapforge/main/docs/screenshots/annotations.png",
+        "https://raw.githubusercontent.com/zheerkhalid/snapforge/main/docs/screenshots/editor-effect.png",
+        "https://raw.githubusercontent.com/zheerkhalid/snapforge/main/docs/screenshots/video-editor.png",
+        "https://raw.githubusercontent.com/zheerkhalid/snapforge/main/docs/screenshots/ocr.png",
+        "https://raw.githubusercontent.com/zheerkhalid/snapforge/main/docs/screenshots/pin.png",
+        "https://raw.githubusercontent.com/zheerkhalid/snapforge/main/docs/screenshots/settings.png"
+      ],
+      "assets": {
+        "setup": "SnapForge-Setup.exe",
+        "portable": "SnapForge-*-portable-x64.zip",
+        "exe": "SnapForge.exe"
+      },
+      "detect": {
+        "inno_app_id": "{6E7B2F3A-9C41-4B8E-A5D2-5F0C3E9A1B77}",
+        "display_name": "SnapForge"
+      }
+    },
+    {
+      "id": "reelforge",
+      "name": "ReelForge",
+      "tagline": "Convert any video or audio, fast. Your graphics card does the heavy lifting.",
+      "category": "Media",
+      "status": "available",
+      "description": [
+        "A friendly, native video and audio converter for Windows. Pick a file, pick one of 409 ready-made profiles, and press Convert.",
+        "ReelForge finds every graphics card Windows reports and proves each hardware encoder works with a tiny test encode, so it only offers what actually runs.",
+        "ReelForge uses FFmpeg as its conversion engine. FFmpeg is not bundled: install it with winget (Gyan.FFmpeg) or put ffmpeg.exe and ffprobe.exe next to ReelForge.exe."
+      ],
+      "features": [
+        "NVIDIA NVENC, AMD AMF and Intel Quick Sync for H.264, HEVC and AV1",
+        "GPU decoding as well as encoding, with automatic fallback to the processor",
+        "Drag and drop files, whole folders or a DVD / Blu-ray folder",
+        "One searchable profile picker with plain-language names and descriptions",
+        "Expected output size before you convert",
+        "Recent and favourite profiles, plus your own saved profiles",
+        "Trim, crop, rotate and flip; brightness, contrast and saturation; deinterlace",
+        "Volume and loudness normalising, text watermark",
+        "Subtitles: burn in tracks from the file or load .srt / .ass / .ssa files, with right-to-left script support",
+        "Parallel conversions, merge several files into one, or split by time",
+        "Remux (change container) in seconds with no quality loss",
+        "Live progress, speed and the exact FFmpeg command log"
+      ],
+      "specs": {
+        "platform": "Windows 10 and 11 (64-bit)",
+        "language": "Rust",
+        "licence": "MIT",
+        "needs_admin": "No",
+        "size": "About 6 MB (EXE), 4 MB installer; needs FFmpeg"
+      },
+      "repo": "zheerkhalid/reelforge",
+      "accent": [
+        "#FF8A3D",
+        "#E02F7A"
+      ],
+      "icon": "https://raw.githubusercontent.com/zheerkhalid/reelforge/main/docs/assets/reelforge-icon.png",
+      "screenshots": [
+        "https://raw.githubusercontent.com/zheerkhalid/reelforge/main/docs/screenshots/main.png",
+        "https://raw.githubusercontent.com/zheerkhalid/reelforge/main/docs/screenshots/formats.png",
+        "https://raw.githubusercontent.com/zheerkhalid/reelforge/main/docs/screenshots/customize.png"
+      ],
+      "assets": {
+        "setup": "ReelForge-Setup.exe",
+        "portable": "ReelForge-*-portable-x64.zip",
+        "exe": "ReelForge.exe"
+      },
+      "detect": {
+        "inno_app_id": "{C8A4E1D7-2B36-4F9A-8E05-1A6B9D3C7F52}",
+        "display_name": "ReelForge"
+      }
+    },
+    {
+      "id": "unforge",
+      "name": "UnForge",
+      "tagline": "Uninstall programs completely, leftovers included.",
+      "category": "System",
+      "status": "available",
+      "description": [
+        "A modern, thorough uninstaller for Windows.",
+        "It runs a program's own uninstaller, then finds the files, folders, registry entries, services and tasks it left behind, and lets you review them before anything is deleted.",
+        "Windows asks for administrator rights when you start it. UnForge needs them to remove files in Program Files and system-wide registry entries. Without them it still works for per-user programs."
+      ],
+      "features": [
+        "Desktop programs (64-bit, 32-bit and per-user) and Microsoft Store apps in one list",
+        "Instant search, sortable columns, real icons and filters",
+        "A guided uninstall in five steps: Prepare, Uninstall, Scan, Review, Finish",
+        "Optional System Restore point",
+        "Leftover scan at three depths: Safe, Moderate, Deep",
+        "Finds leftover files and folders, shortcuts, registry keys, services and scheduled tasks",
+        "Every item is labelled Safe, Likely or Unsure; only Safe items are ticked for you",
+        "Batch uninstall: several programs, one combined review",
+        "Forced uninstall for programs with a broken or missing uninstaller",
+        "Startup manager: enable, disable or delete startup entries",
+        "Broken entries: clean up programs that are listed but no longer there",
+        "History: every uninstall is logged, with one-click registry restore",
+        "Export the program list to CSV or HTML"
+      ],
+      "specs": {
+        "platform": "Windows 10 and 11 (64-bit)",
+        "language": "Rust",
+        "licence": "MIT",
+        "needs_admin": "Yes (asks when it starts)",
+        "size": "About 5 MB (EXE), 4 MB installer"
+      },
+      "repo": "zheerkhalid/unforge",
+      "accent": [
+        "#10C98F",
+        "#086FA8"
+      ],
+      "icon": "https://raw.githubusercontent.com/zheerkhalid/unforge/main/docs/assets/unforge-icon.png",
+      "screenshots": [
+        "https://raw.githubusercontent.com/zheerkhalid/unforge/main/docs/screenshots/programs.png",
+        "https://raw.githubusercontent.com/zheerkhalid/unforge/main/docs/screenshots/program-details.png",
+        "https://raw.githubusercontent.com/zheerkhalid/unforge/main/docs/screenshots/wizard-prepare.png",
+        "https://raw.githubusercontent.com/zheerkhalid/unforge/main/docs/screenshots/wizard-review.png",
+        "https://raw.githubusercontent.com/zheerkhalid/unforge/main/docs/screenshots/wizard-done.png",
+        "https://raw.githubusercontent.com/zheerkhalid/unforge/main/docs/screenshots/startup.png",
+        "https://raw.githubusercontent.com/zheerkhalid/unforge/main/docs/screenshots/history.png",
+        "https://raw.githubusercontent.com/zheerkhalid/unforge/main/docs/screenshots/light-theme.png"
+      ],
+      "assets": {
+        "setup": "UnForge-Setup.exe",
+        "portable": "UnForge-*-portable-x64.zip",
+        "exe": "UnForge.exe"
+      },
+      "detect": {
+        "inno_app_id": "{B3D1F6A2-4E57-4C0B-9A31-7D2E8C5F1A64}",
+        "display_name": "UnForge"
+      }
+    },
+    {
+      "id": "keepforge",
+      "name": "KeepForge",
+      "tagline": "Your passwords, in one encrypted file that only you can open.",
+      "category": "Security",
+      "status": "available",
+      "description": [
+        "A secure, offline password manager for Windows. No account, no cloud, no telemetry: the vault is a single file you own, encrypted with XChaCha20-Poly1305 under a key stretched with Argon2id.",
+        "KeepForge has not been independently audited. It is built from well-known, reviewed building blocks (the RustCrypto crates), but the way they are put together has been checked only by its developer and its own tests. Read its security notes, keep backups, and decide for yourself how much to trust it."
+      ],
+      "features": [
+        "One encrypted .kfv file; keep it anywhere, including a synced folder",
+        "Master password, plus an optional key file",
+        "Logins, cards, identities, secure notes, Wi-Fi and licence keys",
+        "Folders, tags, favourites, trash, attachments and password history",
+        "Instant search with type, folder and tag filters",
+        "Auto-type into the window you were using, by button or global hotkey",
+        "Built-in authenticator (TOTP) with a countdown ring",
+        "Auto-lock when idle and when Windows locks or sleeps",
+        "Generator: random passwords, passphrases from the EFF large wordlist, user names, PINs and tokens",
+        "Security dashboard: weak, reused and old passwords at a glance",
+        "Leaked password check against Pwned Passwords (k-anonymity) and email breach lookup",
+        "Tools: strength tester, encrypt text or a file, file checksums, QR codes, secure shred",
+        "Import CSV exports from common browsers and password managers"
+      ],
+      "specs": {
+        "platform": "Windows 10 and 11 (64-bit)",
+        "language": "Rust",
+        "licence": "MIT",
+        "needs_admin": "No",
+        "size": "About 8 MB (EXE), 5 MB installer"
+      },
+      "repo": "zheerkhalid/keepforge",
+      "accent": [
+        "#0FB5A6",
+        "#3B3FD8"
+      ],
+      "icon": "https://raw.githubusercontent.com/zheerkhalid/keepforge/main/docs/assets/keepforge-icon.png",
+      "screenshots": [
+        "https://raw.githubusercontent.com/zheerkhalid/keepforge/main/docs/screenshots/main.png",
+        "https://raw.githubusercontent.com/zheerkhalid/keepforge/main/docs/screenshots/unlock.png",
+        "https://raw.githubusercontent.com/zheerkhalid/keepforge/main/docs/screenshots/dashboard.png",
+        "https://raw.githubusercontent.com/zheerkhalid/keepforge/main/docs/screenshots/generator.png",
+        "https://raw.githubusercontent.com/zheerkhalid/keepforge/main/docs/screenshots/authenticator.png",
+        "https://raw.githubusercontent.com/zheerkhalid/keepforge/main/docs/screenshots/card.png",
+        "https://raw.githubusercontent.com/zheerkhalid/keepforge/main/docs/screenshots/tools.png",
+        "https://raw.githubusercontent.com/zheerkhalid/keepforge/main/docs/screenshots/light-theme.png"
+      ],
+      "assets": {
+        "setup": "KeepForge-Setup.exe",
+        "portable": "KeepForge-*-portable-x64.zip",
+        "exe": "KeepForge.exe"
+      },
+      "detect": {
+        "inno_app_id": "{6F3A9C12-58D4-4B7E-A1C6-2E9D7B4F8035}",
+        "display_name": "KeepForge"
+      }
+    },
+    {
+      "id": "shredforge",
+      "name": "ShredForge",
+      "tagline": "Delete files so they cannot be brought back.",
+      "category": "Security",
+      "status": "available",
+      "description": [
+        "A secure shredder for Windows. Shred files, folders, free space, whole partitions and whole disks, from the app or from the Explorer right-click menu, with 16 erasure algorithms to choose from.",
+        "Shredding cannot be undone. There is no Recycle Bin and no recovery afterwards. Whole-partition and whole-disk wipes in this first release have been tested on disk image files only, not yet on physical drives. Check the confirmation carefully before you continue.",
+        "ShredForge runs without administrator rights for files and folders. It asks for them only when a job needs raw access to a volume or disk."
+      ],
+      "features": [
+        "Drag and drop, or pick files and folders",
+        "Overwrites the data in place, then the file's slack space and alternate data streams",
+        "Renames to random names, resets dates and truncates before deleting",
+        "Explorer right-click menu: Shred with ShredForge on files, folders, drives and the Recycle Bin",
+        "Always shows a confirmation listing what will be destroyed",
+        "Wipe a whole volume or a whole physical disk, with verification by samples or a full read-back",
+        "Wipe free space so already-deleted files cannot be recovered",
+        "Shred the contents of the Recycle Bin",
+        "An erasure report for every job, as text, HTML and JSON",
+        "Command line with --dry-run, --list-methods, --list-drives and exit codes for scripts"
+      ],
+      "specs": {
+        "platform": "Windows 10 and 11 (64-bit)",
+        "language": "Rust",
+        "licence": "MIT",
+        "needs_admin": "Only for partitions and disks",
+        "size": "About 5 MB (EXE), 4 MB installer"
+      },
+      "repo": "zheerkhalid/shredforge",
+      "accent": [
+        "#D91A4D",
+        "#FB7A1E"
+      ],
+      "icon": "https://raw.githubusercontent.com/zheerkhalid/shredforge/main/docs/assets/shredforge-icon.png",
+      "screenshots": [
+        "https://raw.githubusercontent.com/zheerkhalid/shredforge/main/docs/screenshots/shred.png",
+        "https://raw.githubusercontent.com/zheerkhalid/shredforge/main/docs/screenshots/confirm.png",
+        "https://raw.githubusercontent.com/zheerkhalid/shredforge/main/docs/screenshots/progress.png",
+        "https://raw.githubusercontent.com/zheerkhalid/shredforge/main/docs/screenshots/done.png",
+        "https://raw.githubusercontent.com/zheerkhalid/shredforge/main/docs/screenshots/algorithms.png",
+        "https://raw.githubusercontent.com/zheerkhalid/shredforge/main/docs/screenshots/drives.png",
+        "https://raw.githubusercontent.com/zheerkhalid/shredforge/main/docs/screenshots/freespace.png",
+        "https://raw.githubusercontent.com/zheerkhalid/shredforge/main/docs/screenshots/reports.png"
+      ],
+      "assets": {
+        "setup": "ShredForge-Setup.exe",
+        "portable": "ShredForge-*-portable-x64.zip",
+        "exe": "ShredForge.exe"
+      },
+      "detect": {
+        "inno_app_id": "{6F2C9D4E-1B7A-4E3F-9C55-2A8D0E7B41C9}",
+        "display_name": "ShredForge"
+      }
+    },
+    {
+      "id": "bootforge",
+      "name": "BootForge",
+      "tagline": "Turn an ISO into a bootable USB drive.",
+      "category": "System",
+      "status": "available",
+      "description": [
+        "A bootable USB creator for Windows. Pick an image, pick a drive, and BootForge tells you what the image is, which write mode suits it, and exactly what will be erased before anything is written.",
+        "Early release. BootForge's writer, partitioner, FAT32 formatter and ISO extractor have been tested thoroughly against disk image files, but this first version has not yet been tested by writing a real USB drive or booting one on real hardware. Writing erases the chosen drive.",
+        "BootForge starts without administrator rights and asks for them when you start writing."
+      ],
+      "features": [
+        "Reads ISO 9660, Joliet, Rock Ridge and UDF images",
+        "Detects BIOS and UEFI boot entries and hybrid MBR/GPT images",
+        "Windows setup images: install.wim size, version and editions",
+        "Recommends the right write mode and explains why",
+        "File copy mode: GPT or MBR, FAT32, files extracted from the ISO, for UEFI boot",
+        "Splits a Windows install.wim larger than 4 GB using the DISM tool already on your PC",
+        "Verify after writing; optional bad-block check first",
+        "Back up a USB drive to an image file, and restore it",
+        "Reset a drive to a normal empty one (FAT32 or exFAT)",
+        "Bad-block check that also detects fake-capacity drives",
+        "MD5, SHA-1 and SHA-256 checksums of any image, with compare"
+      ],
+      "specs": {
+        "platform": "Windows 10 and 11 (64-bit)",
+        "language": "Rust",
+        "licence": "MIT",
+        "needs_admin": "When writing a drive",
+        "size": "About 5 MB (EXE), 4 MB installer"
+      },
+      "repo": "zheerkhalid/bootforge",
+      "accent": [
+        "#5B6E86",
+        "#161D2B"
+      ],
+      "icon": "https://raw.githubusercontent.com/zheerkhalid/bootforge/main/docs/assets/bootforge-icon.png",
+      "screenshots": [
+        "https://raw.githubusercontent.com/zheerkhalid/bootforge/main/docs/screenshots/create.png",
+        "https://raw.githubusercontent.com/zheerkhalid/bootforge/main/docs/screenshots/create-linux.png",
+        "https://raw.githubusercontent.com/zheerkhalid/bootforge/main/docs/screenshots/confirm.png",
+        "https://raw.githubusercontent.com/zheerkhalid/bootforge/main/docs/screenshots/progress.png",
+        "https://raw.githubusercontent.com/zheerkhalid/bootforge/main/docs/screenshots/done.png",
+        "https://raw.githubusercontent.com/zheerkhalid/bootforge/main/docs/screenshots/drive-tools.png",
+        "https://raw.githubusercontent.com/zheerkhalid/bootforge/main/docs/screenshots/checksums.png",
+        "https://raw.githubusercontent.com/zheerkhalid/bootforge/main/docs/screenshots/light-theme.png"
+      ],
+      "assets": {
+        "setup": "BootForge-Setup.exe",
+        "portable": "BootForge-*-portable-x64.zip",
+        "exe": "BootForge.exe"
+      },
+      "detect": {
+        "inno_app_id": "{7C2E9A41-5B0D-4F36-8E12-A9D3C64B7F05}",
+        "display_name": "BootForge"
+      }
+    },
+    {
+      "id": "wireforge",
+      "name": "WireForge",
+      "tagline": "See everything about your network, in one place.",
+      "category": "Network",
+      "status": "available",
+      "description": [
+        "A network and Wi-Fi monitor for Windows.",
+        "Live traffic, per-app usage, every connection, nearby Wi-Fi and channels, saved Wi-Fi passwords, the devices on your network, a speed test and nine diagnostic tools.",
+        "Per-app byte counts need administrator rights. The speed test uses Measurement Lab's open NDT7 test and asks for consent first, because M-Lab publishes test results."
+      ],
+      "features": [
+        "Live download and upload rates with history graphs",
+        "Totals for today, this month and this session; optional data allowance alert",
+        "Per-app live rates and usage history",
+        "Every TCP and UDP connection with its program, addresses and state",
+        "Tray icon and an optional floating meter",
+        "Wi-Fi analyzer: nearby networks, channel occupancy per band with a best-channel suggestion, signal over time",
+        "Saved Wi-Fi networks with their passwords, hidden until you press reveal, and a QR code to share",
+        "Devices on your network: IP, MAC, vendor, name, with an alert when a new device appears",
+        "Ping with a live graph, traceroute, DNS lookup, port check, Wake-on-LAN, whois, subnet calculator",
+        "Speed test: download, upload, latency and jitter with a history graph",
+        "Export any page to CSV, HTML or JSON"
+      ],
+      "specs": {
+        "platform": "Windows 10 and 11 (64-bit)",
+        "language": "Rust",
+        "licence": "MIT",
+        "needs_admin": "Optional (per-app byte counts)",
+        "size": "About 7 MB (EXE), 5 MB installer"
+      },
+      "repo": "zheerkhalid/wireforge",
+      "accent": [
+        "#1B3FD8",
+        "#12D6FF"
+      ],
+      "icon": "https://raw.githubusercontent.com/zheerkhalid/wireforge/main/docs/assets/wireforge-icon.png",
+      "screenshots": [
+        "https://raw.githubusercontent.com/zheerkhalid/wireforge/main/docs/screenshots/overview.png",
+        "https://raw.githubusercontent.com/zheerkhalid/wireforge/main/docs/screenshots/apps.png",
+        "https://raw.githubusercontent.com/zheerkhalid/wireforge/main/docs/screenshots/connections.png",
+        "https://raw.githubusercontent.com/zheerkhalid/wireforge/main/docs/screenshots/wifi.png",
+        "https://raw.githubusercontent.com/zheerkhalid/wireforge/main/docs/screenshots/wifi-channels.png",
+        "https://raw.githubusercontent.com/zheerkhalid/wireforge/main/docs/screenshots/saved.png",
+        "https://raw.githubusercontent.com/zheerkhalid/wireforge/main/docs/screenshots/devices.png",
+        "https://raw.githubusercontent.com/zheerkhalid/wireforge/main/docs/screenshots/speed.png"
+      ],
+      "assets": {
+        "setup": "WireForge-Setup.exe",
+        "portable": "WireForge-*-portable-x64.zip",
+        "exe": "WireForge.exe"
+      },
+      "detect": {
+        "inno_app_id": "{C8E41B7A-2D95-4F3C-B6A0-91D7E5F2A3C4}",
+        "display_name": "WireForge"
+      }
+    },
+    {
+      "id": "twinforge",
+      "name": "TwinForge",
+      "tagline": "Find duplicate files and look-alike photos, and get your space back.",
+      "category": "Files",
+      "status": "available",
+      "description": [
+        "A duplicate finder for Windows.",
+        "Exact duplicates, similar pictures, similar music and six clean-up finders, with keep-rules that never let you delete the last copy.",
+        "Files go to the Recycle Bin by default. Replacing duplicates with symbolic links needs administrator rights or Windows Developer Mode."
+      ],
+      "features": [
+        "Exact duplicates by size, then a quick partial hash, then a full hash (BLAKE3 or XXH3-128)",
+        "Optional byte-by-byte confirmation; multi-threaded, with progress and cancel",
+        "Knows hard links, and remembers hashes between runs so rescans are fast",
+        "Similar pictures: finds resized, recompressed, rotated and mirrored copies, with a similarity slider",
+        "Side-by-side compare with resolution, size, date and a difference hint",
+        "Similar music by artist, title, album and length, with fuzzy matching",
+        "Clean-up finders: same name, empty files, empty folders, broken shortcuts, biggest files, temporary files",
+        "Smart selection: keep newest, oldest, largest, smallest, highest resolution and more",
+        "Reference folders: files there are never selected",
+        "Move to the Recycle Bin, move to a folder with undo, replace with hard links or symbolic links, or delete permanently",
+        "Export results to CSV, HTML or JSON, and a command line scan"
+      ],
+      "specs": {
+        "platform": "Windows 10 and 11 (64-bit)",
+        "language": "Rust",
+        "licence": "MIT",
+        "needs_admin": "No",
+        "size": "About 7 MB (EXE), 5 MB installer"
+      },
+      "repo": "zheerkhalid/twinforge",
+      "accent": [
+        "#FFB71C",
+        "#EE3F2C"
+      ],
+      "icon": "https://raw.githubusercontent.com/zheerkhalid/twinforge/main/docs/assets/twinforge-icon.png",
+      "screenshots": [
+        "https://raw.githubusercontent.com/zheerkhalid/twinforge/main/docs/screenshots/duplicates.png",
+        "https://raw.githubusercontent.com/zheerkhalid/twinforge/main/docs/screenshots/similar-pictures.png",
+        "https://raw.githubusercontent.com/zheerkhalid/twinforge/main/docs/screenshots/similar-music.png",
+        "https://raw.githubusercontent.com/zheerkhalid/twinforge/main/docs/screenshots/scan-setup.png",
+        "https://raw.githubusercontent.com/zheerkhalid/twinforge/main/docs/screenshots/scanning.png",
+        "https://raw.githubusercontent.com/zheerkhalid/twinforge/main/docs/screenshots/biggest-files.png",
+        "https://raw.githubusercontent.com/zheerkhalid/twinforge/main/docs/screenshots/confirm.png",
+        "https://raw.githubusercontent.com/zheerkhalid/twinforge/main/docs/screenshots/history.png"
+      ],
+      "assets": {
+        "setup": "TwinForge-Setup.exe",
+        "portable": "TwinForge-*-portable-x64.zip",
+        "exe": "TwinForge.exe"
+      },
+      "detect": {
+        "inno_app_id": "{8C2E5D71-3B94-4F06-9E1A-5A7C0D2B6F43}",
+        "display_name": "TwinForge"
+      }
+    },
+    {
+      "id": "rescueforge",
+      "name": "RescueForge",
+      "tagline": "Get deleted files back: photos, documents, video, everything.",
+      "category": "Files",
+      "status": "available",
+      "description": [
+        "A file recovery program for Windows.",
+        "A quick scan brings back recently deleted files with their names and folders. A deep scan reads every sector to find files by their content, lost partitions, and files from before a format.",
+        "If you just lost files: stop using that drive, do not install RescueForge on it (use the portable ZIP from another drive), and recover to a different drive. RescueForge refuses to save onto the drive it is scanning.",
+        "First release. Scanning and recovery have been tested end to end on disk images. Windows asks for administrator rights when you start it; reading a drive directly needs them. Without them you can still scan disk image files."
+      ],
+      "features": [
+        "Quick scan: reads the drive's own records of deleted files on NTFS, FAT12/16/32 and exFAT",
+        "Brings back names, folders and dates, and rates every file: good, partly overwritten or overwritten",
+        "Deep scan: reads every sector and finds about 45 kinds of file by their content",
+        "Finds lost partitions and rebuilds folders after a quick format",
+        "Pictures, video and audio, documents, archives, programs, databases and mail stores",
+        "Folder tree with original paths; filter by type, size, date and recoverability",
+        "List or thumbnail grid, with a preview of pictures, text or raw bytes before recovering",
+        "Sources: drives with a letter, whole physical disks and disk image files",
+        "Create an image first, skipping bad sectors, then scan the image",
+        "The source is always opened read-only, and each recovered file is checked by reading it back",
+        "Pause, resume and stop; save a scan and reopen it later without rescanning"
+      ],
+      "specs": {
+        "platform": "Windows 10 and 11 (64-bit)",
+        "language": "Rust",
+        "licence": "MIT",
+        "needs_admin": "Yes (asks when it starts)",
+        "size": "About 7 MB (EXE), 5 MB installer"
+      },
+      "repo": "zheerkhalid/rescueforge",
+      "accent": [
+        "#FFC233",
+        "#EE4F2C"
+      ],
+      "icon": "https://raw.githubusercontent.com/zheerkhalid/rescueforge/main/docs/assets/rescueforge-icon.png",
+      "screenshots": [
+        "https://raw.githubusercontent.com/zheerkhalid/rescueforge/main/docs/screenshots/home.png",
+        "https://raw.githubusercontent.com/zheerkhalid/rescueforge/main/docs/screenshots/scanning.png",
+        "https://raw.githubusercontent.com/zheerkhalid/rescueforge/main/docs/screenshots/results.png",
+        "https://raw.githubusercontent.com/zheerkhalid/rescueforge/main/docs/screenshots/grid.png",
+        "https://raw.githubusercontent.com/zheerkhalid/rescueforge/main/docs/screenshots/preview.png",
+        "https://raw.githubusercontent.com/zheerkhalid/rescueforge/main/docs/screenshots/recover.png",
+        "https://raw.githubusercontent.com/zheerkhalid/rescueforge/main/docs/screenshots/recover-done.png",
+        "https://raw.githubusercontent.com/zheerkhalid/rescueforge/main/docs/screenshots/imaging.png"
+      ],
+      "assets": {
+        "setup": "RescueForge-Setup.exe",
+        "portable": "RescueForge-*-portable-x64.zip",
+        "exe": "RescueForge.exe"
+      },
+      "detect": {
+        "inno_app_id": "{7C4E2A91-5B38-4D6F-A2C7-91E0D3B6F548}",
+        "display_name": "RescueForge"
+      }
+    },
+    {
+      "id": "spaceforge",
+      "name": "SpaceForge",
+      "tagline": "See what is filling your drive.",
+      "category": "System",
+      "status": "available",
+      "description": [
+        "A fast disk space analyzer for Windows.",
+        "Scan a drive or folder and explore it as a sortable tree, a treemap, by file type, by size and by age, then clean up without rescanning.",
+        "First release. The fast NTFS scan (reading the file table as administrator) has been tested against synthetic NTFS images only, not yet on a real drive. SpaceForge runs without administrator rights; Restart as administrator switches on the fast scan for NTFS drives."
+      ],
+      "features": [
+        "On NTFS drives, reads the file table directly when run as administrator",
+        "Falls back to a parallel folder walk for other drives, single folders and standard rights",
+        "Scan several drives or folders at once; hard links counted once",
+        "Treemap: every file is a block; its area is its size and its colour its type",
+        "Folders: sortable tree with share-of-parent bars, files, folders and dates",
+        "File types, largest files and folders, age and size views",
+        "Search by name, wildcard, extension and filters",
+        "Open, show in Explorer, copy path, properties",
+        "Delete to the Recycle Bin or permanently, with a confirmation; totals update without a rescan",
+        "Save a scan as a snapshot and compare two snapshots to see what grew and what shrank",
+        "Export to CSV, HTML or JSON, and a command line scan"
+      ],
+      "specs": {
+        "platform": "Windows 10 and 11 (64-bit)",
+        "language": "Rust",
+        "licence": "MIT",
+        "needs_admin": "Optional (fast NTFS scan)",
+        "size": "About 5 MB (EXE), 4 MB installer"
+      },
+      "repo": "zheerkhalid/spaceforge",
+      "accent": [
+        "#8B4DF6",
+        "#1F7CF2"
+      ],
+      "icon": "https://raw.githubusercontent.com/zheerkhalid/spaceforge/main/docs/assets/spaceforge-icon.png",
+      "screenshots": [
+        "https://raw.githubusercontent.com/zheerkhalid/spaceforge/main/docs/screenshots/treemap.png",
+        "https://raw.githubusercontent.com/zheerkhalid/spaceforge/main/docs/screenshots/tree.png",
+        "https://raw.githubusercontent.com/zheerkhalid/spaceforge/main/docs/screenshots/types.png",
+        "https://raw.githubusercontent.com/zheerkhalid/spaceforge/main/docs/screenshots/largest.png",
+        "https://raw.githubusercontent.com/zheerkhalid/spaceforge/main/docs/screenshots/age.png",
+        "https://raw.githubusercontent.com/zheerkhalid/spaceforge/main/docs/screenshots/search.png",
+        "https://raw.githubusercontent.com/zheerkhalid/spaceforge/main/docs/screenshots/compare.png",
+        "https://raw.githubusercontent.com/zheerkhalid/spaceforge/main/docs/screenshots/drives.png"
+      ],
+      "assets": {
+        "setup": "SpaceForge-Setup.exe",
+        "portable": "SpaceForge-*-portable-x64.zip",
+        "exe": "SpaceForge.exe"
+      },
+      "detect": {
+        "inno_app_id": "{6E2C9A41-5D38-4F7B-A0C6-93B1E4D27F58}",
+        "display_name": "SpaceForge"
+      }
+    },
+    {
+      "id": "findforge",
+      "name": "FindForge",
+      "tagline": "Find any file by name, as you type.",
+      "category": "Files",
+      "status": "available",
+      "description": [
+        "An instant file search for Windows.",
+        "FindForge indexes the names of every file and folder on your drives, keeps the index up to date as files change, and shows results while you are still typing.",
+        "First release. FindForge works without administrator rights. Restart as administrator switches to the fastest indexing method and includes folders your account cannot open."
+      ],
+      "features": [
+        "Results appear while you type, with matches highlighted in every name",
+        "Name, path, size, dates and type; sortable columns and a column chooser",
+        "Ready-made filters: Audio, Video, Pictures, Documents, Compressed, Executables, Folders, and your own",
+        "Optional preview pane",
+        "Indexes file and folder names on all your drives and stays up to date as files change",
+        "The index is saved to disk, so the next start is instant",
+        "Exclude lists, and a choice of which drives to index",
+        "Open, open containing folder, copy name or path, rename and delete (to the Recycle Bin)",
+        "Export results to CSV or text; bookmarks and search history",
+        "Global hotkey, tray icon and optional start with Windows",
+        "Command line: FindForge.exe -s \"query\" prints results"
+      ],
+      "specs": {
+        "platform": "Windows 10 and 11 (64-bit)",
+        "language": "Rust",
+        "licence": "MIT",
+        "needs_admin": "Optional (fastest indexing)",
+        "size": "About 6 MB (EXE), 5 MB installer"
+      },
+      "repo": "zheerkhalid/findforge",
+      "accent": [
+        "#FFC92E",
+        "#F25C0C"
+      ],
+      "icon": "https://raw.githubusercontent.com/zheerkhalid/findforge/main/docs/assets/findforge-icon.png",
+      "screenshots": [
+        "https://raw.githubusercontent.com/zheerkhalid/findforge/main/docs/screenshots/search.png",
+        "https://raw.githubusercontent.com/zheerkhalid/findforge/main/docs/screenshots/filter.png",
+        "https://raw.githubusercontent.com/zheerkhalid/findforge/main/docs/screenshots/preview.png",
+        "https://raw.githubusercontent.com/zheerkhalid/findforge/main/docs/screenshots/index.png",
+        "https://raw.githubusercontent.com/zheerkhalid/findforge/main/docs/screenshots/bookmarks.png",
+        "https://raw.githubusercontent.com/zheerkhalid/findforge/main/docs/screenshots/history.png",
+        "https://raw.githubusercontent.com/zheerkhalid/findforge/main/docs/screenshots/syntax.png",
+        "https://raw.githubusercontent.com/zheerkhalid/findforge/main/docs/screenshots/settings.png"
+      ],
+      "assets": {
+        "setup": "FindForge-Setup.exe",
+        "portable": "FindForge-*-portable-x64.zip",
+        "exe": "FindForge.exe"
+      },
+      "detect": {
+        "inno_app_id": "{7C4E2A91-5B3D-4F68-A1C7-9E0D3B6F2A85}",
+        "display_name": "FindForge"
+      }
+    },
+    {
+      "id": "pulseforge",
+      "name": "PulseForge",
+      "tagline": "Hardware and system monitor.",
+      "category": "System",
+      "status": "available",
+      "description": [
+        "A hardware and system monitor for Windows.",
+        "Processor, memory, graphics, drives and their health, battery, network, displays, sensors and processes, with history graphs, alerts and a full system report.",
+        "PulseForge installs no kernel driver, so per-core temperatures, fan speeds and voltages are not available on most PCs; it shows them as unavailable and never invents a value."
+      ],
+      "features": [
+        "Live dashboard with tiles and history graphs from 1 minute to 24 hours",
+        "Processor model, cores, caches, per-core load and clock speed",
+        "Memory use, plus each module's size, speed, maker and slot",
+        "Graphics adapters, memory, per-engine load and per-process use",
+        "Drive health: SMART and NVMe attributes with plain-language status, temperature, life remaining",
+        "Battery design and full capacity, wear, cycle count and charge rate",
+        "System, BIOS, Secure Boot, TPM, Windows details and displays",
+        "Sensors list and a live process table with end task",
+        "Alerts, CSV logging and a full system report with masking of serial numbers",
+        "Tray icon with a live number and an optional mini widget"
+      ],
+      "specs": {
+        "platform": "Windows 10 and 11 (64-bit)",
+        "language": "Rust",
+        "licence": "MIT",
+        "needs_admin": "Optional (SMART on some drives)",
+        "size": "About 5 MB (EXE), 4 MB installer"
+      },
+      "repo": "zheerkhalid/pulseforge",
+      "accent": [
+        "#FF3D8B",
+        "#7A3CF0"
+      ],
+      "icon": "https://raw.githubusercontent.com/zheerkhalid/pulseforge/main/docs/assets/pulseforge-icon.png",
+      "screenshots": [
+        "https://raw.githubusercontent.com/zheerkhalid/pulseforge/main/docs/screenshots/dashboard.png",
+        "https://raw.githubusercontent.com/zheerkhalid/pulseforge/main/docs/screenshots/processor.png",
+        "https://raw.githubusercontent.com/zheerkhalid/pulseforge/main/docs/screenshots/memory.png",
+        "https://raw.githubusercontent.com/zheerkhalid/pulseforge/main/docs/screenshots/storage-health.png",
+        "https://raw.githubusercontent.com/zheerkhalid/pulseforge/main/docs/screenshots/battery.png",
+        "https://raw.githubusercontent.com/zheerkhalid/pulseforge/main/docs/screenshots/graphics.png",
+        "https://raw.githubusercontent.com/zheerkhalid/pulseforge/main/docs/screenshots/processes.png",
+        "https://raw.githubusercontent.com/zheerkhalid/pulseforge/main/docs/screenshots/sensors.png"
+      ],
+      "assets": {
+        "setup": "PulseForge-Setup.exe",
+        "portable": "PulseForge-*-portable-x64.zip",
+        "exe": "PulseForge.exe"
+      },
+      "detect": {
+        "inno_app_id": "{6F0C2B8E-91D4-4A7B-B3E5-2C9A7D4F8E13}",
+        "display_name": "PulseForge"
+      }
+    },
+    {
+      "id": "veilforge",
+      "name": "VeilForge",
+      "tagline": "File and folder locker.",
+      "category": "Security",
+      "status": "coming-soon",
+      "description": [
+        "An easy file and folder locker for Windows: lock, hide or ask for a password on open, without encrypting anything.",
+        "This app is still being built. It will appear here with downloads when its first release is published."
+      ],
+      "features": [],
+      "specs": {
+        "platform": "Windows 10 and 11 (64-bit)",
+        "language": "Rust",
+        "licence": "MIT",
+        "needs_admin": "To be announced",
+        "size": "To be announced"
+      },
+      "repo": "",
+      "accent": [
+        "#3A445C",
+        "#8B4FE6"
+      ],
+      "icon": "",
+      "screenshots": [],
+      "assets": {
+        "setup": "VeilForge-Setup.exe",
+        "portable": "VeilForge-*-portable-x64.zip",
+        "exe": "VeilForge.exe"
+      },
+      "detect": {
+        "inno_app_id": "",
+        "display_name": "VeilForge"
+      }
+    },
+    {
+      "id": "socketforge",
+      "name": "SocketForge",
+      "tagline": "Ports viewer and hosts editor.",
+      "category": "Network",
+      "status": "available",
+      "description": [
+        "A local ports and listening-services viewer with a hosts-file editor, for Windows.",
+        "SocketForge answers \"what is using port 3000?\" and \"what is listening on my PC?\": every listening port with the program behind it and whether it is reachable from the network.",
+        "It also edits the hosts file safely, with automatic backups and named profiles."
+      ],
+      "features": [
+        "Listening ports with program, service name, usual purpose and network exposure",
+        "Active connections with live refresh and change highlighting",
+        "Port check: who is using a port, and why a port can be unavailable even when nothing listens",
+        "Free port finder",
+        "Watch and history: when ports open and close, with alerts for new listeners",
+        "Hosts file editor: table view, enable and disable entries, duplicate and syntax checks",
+        "Automatic timestamped hosts backups with one-click restore, and named profiles",
+        "Firewall rules, port proxies, URL reservations, reserved ranges, Docker and WSL forwards (read-only)",
+        "Export to CSV, JSON and HTML; command line"
+      ],
+      "specs": {
+        "platform": "Windows 10 and 11 (64-bit)",
+        "language": "Rust",
+        "licence": "MIT",
+        "needs_admin": "Optional (details of every process; saving the hosts file)",
+        "size": "About 5 MB (EXE), 4 MB installer"
+      },
+      "repo": "zheerkhalid/socketforge",
+      "accent": [
+        "#9CD61F",
+        "#0C8A4B"
+      ],
+      "icon": "https://raw.githubusercontent.com/zheerkhalid/socketforge/main/docs/assets/socketforge-icon.png",
+      "screenshots": [
+        "https://raw.githubusercontent.com/zheerkhalid/socketforge/main/docs/screenshots/listening.png",
+        "https://raw.githubusercontent.com/zheerkhalid/socketforge/main/docs/screenshots/connections.png",
+        "https://raw.githubusercontent.com/zheerkhalid/socketforge/main/docs/screenshots/lookup.png",
+        "https://raw.githubusercontent.com/zheerkhalid/socketforge/main/docs/screenshots/free.png",
+        "https://raw.githubusercontent.com/zheerkhalid/socketforge/main/docs/screenshots/history.png",
+        "https://raw.githubusercontent.com/zheerkhalid/socketforge/main/docs/screenshots/hosts.png",
+        "https://raw.githubusercontent.com/zheerkhalid/socketforge/main/docs/screenshots/hosts-profiles.png",
+        "https://raw.githubusercontent.com/zheerkhalid/socketforge/main/docs/screenshots/rules.png"
+      ],
+      "assets": {
+        "setup": "SocketForge-Setup.exe",
+        "portable": "SocketForge-*-portable-x64.zip",
+        "exe": "SocketForge.exe"
+      },
+      "detect": {
+        "inno_app_id": "{4D9E7A15-63C2-4B8F-9E0A-7C1F5D2B8A36}",
+        "display_name": "SocketForge"
+      }
+    },
+    {
+      "id": "hourforge",
+      "name": "HourForge",
+      "tagline": "A private, automatic time tracker.",
+      "category": "Productivity",
+      "status": "available",
+      "description": [
+        "A private, automatic time tracker for Windows.",
+        "HourForge quietly records which apps, windows and sites you work in and for how long, and turns it into a timeline and reports. It makes no network requests; everything stays on your PC.",
+        "Closing the window keeps HourForge tracking in the tray."
+      ],
+      "features": [
+        "Automatic tracking of the app and window you are working in, with the website domain for browsers",
+        "Notices when you are away and asks what you were doing when you return",
+        "Today view with a coloured day timeline, top apps, windows and sites",
+        "Editable timeline: add offline time, split, merge, delete, add notes",
+        "Reports by day, week, month or any range, with heatmap, trends and drill-down",
+        "Categories with editable rules; projects with timesheets, rounding and hourly rates",
+        "Daily goals, limits on distracting categories, break reminders and a focus timer",
+        "Privacy controls: pause, private apps, title redaction, delete any range",
+        "Export to CSV, JSON and HTML; command line export"
+      ],
+      "specs": {
+        "platform": "Windows 10 and 11 (64-bit)",
+        "language": "Rust",
+        "licence": "MIT",
+        "needs_admin": "No",
+        "size": "About 6 MB (EXE), 4 MB installer"
+      },
+      "repo": "zheerkhalid/hourforge",
+      "accent": [
+        "#2A2C8C",
+        "#C2477E"
+      ],
+      "icon": "https://raw.githubusercontent.com/zheerkhalid/hourforge/main/docs/assets/hourforge-icon.png",
+      "screenshots": [
+        "https://raw.githubusercontent.com/zheerkhalid/hourforge/main/docs/screenshots/today.png",
+        "https://raw.githubusercontent.com/zheerkhalid/hourforge/main/docs/screenshots/timeline.png",
+        "https://raw.githubusercontent.com/zheerkhalid/hourforge/main/docs/screenshots/reports.png",
+        "https://raw.githubusercontent.com/zheerkhalid/hourforge/main/docs/screenshots/reports-heatmap.png",
+        "https://raw.githubusercontent.com/zheerkhalid/hourforge/main/docs/screenshots/categories.png",
+        "https://raw.githubusercontent.com/zheerkhalid/hourforge/main/docs/screenshots/projects.png",
+        "https://raw.githubusercontent.com/zheerkhalid/hourforge/main/docs/screenshots/goals.png",
+        "https://raw.githubusercontent.com/zheerkhalid/hourforge/main/docs/screenshots/privacy.png"
+      ],
+      "assets": {
+        "setup": "HourForge-Setup.exe",
+        "portable": "HourForge-*-portable-x64.zip",
+        "exe": "HourForge.exe"
+      },
+      "detect": {
+        "inno_app_id": "{7C4E2B19-5A6D-4F83-B1E7-3D9A60C2F5A8}",
+        "display_name": "HourForge"
+      }
+    }
+  ]
+}
