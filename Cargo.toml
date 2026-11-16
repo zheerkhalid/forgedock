@@ -1,6 +1,6 @@
 [package]
 name = "forgedock"
-version = "1.0.0"
+version = "1.0.1"
 edition = "2021"
 description = "App manager and marketplace for the Forge family of Windows apps: browse, install, update and remove them"
 authors = ["Zheer Khalid (https://zheer.dev)"]

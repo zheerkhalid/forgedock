@@ -17,7 +17,7 @@ Browse the apps with descriptions, screenshots and specifications, install them 
 </p>
 
 <p>
-  <img alt="Apps" src="https://img.shields.io/badge/apps-14%20available-6366F1?style=flat-square" />
+  <img alt="Apps" src="https://img.shields.io/badge/apps-15%20available-6366F1?style=flat-square" />
   <img alt="Source" src="https://img.shields.io/badge/downloads-GitHub%20releases%20only-10C98F?style=flat-square" />
   <img alt="Setup and portable" src="https://img.shields.io/badge/setup%20%2B%20portable-no%20runtimes-10C98F?style=flat-square" />
   <img alt="No telemetry" src="https://img.shields.io/badge/telemetry-none-10C98F?style=flat-square" />
@@ -101,6 +101,7 @@ Browse the apps with descriptions, screenshots and specifications, install them 
 | [PulseForge](https://github.com/zheerkhalid/pulseforge) | Hardware and system monitor |
 | [SocketForge](https://github.com/zheerkhalid/socketforge) | Ports viewer and hosts-file editor |
 | [HourForge](https://github.com/zheerkhalid/hourforge) | Private automatic time tracker |
+| [VeilForge](https://github.com/zheerkhalid/veilforge) | File and folder locker |
 
 ## 🖼️ Screenshots
 

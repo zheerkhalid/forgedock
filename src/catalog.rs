@@ -230,13 +230,10 @@ mod tests {
         assert_eq!(snap.status, Status::Available);
         assert!(!snap.features.is_empty() && !snap.screenshots.is_empty());
         assert_eq!(snap.accents().0, [0x4f, 0x6b, 0xff]);
-        let soon = cat.apps.iter().find(|a| a.id == "veilforge").unwrap();
-        assert_eq!(soon.status, Status::ComingSoon);
-        assert!(soon.repo_name().is_none());
         assert_eq!(
             cat.apps.iter().filter(|a| a.available()).count(),
-            14,
-            "fourteen published apps"
+            15,
+            "fifteen published apps"
         );
         for app in cat.apps.iter().filter(|a| a.available()) {
             assert!(crate::net::is_allowed_fetch(&app.icon), "{}", app.icon);
