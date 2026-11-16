@@ -691,33 +691,52 @@
       "name": "VeilForge",
       "tagline": "File and folder locker.",
       "category": "Security",
-      "status": "coming-soon",
+      "status": "available",
       "description": [
-        "An easy file and folder locker for Windows: lock, hide or ask for a password on open, without encrypting anything.",
-        "This app is still being built. It will appear here with downloads when its first release is published."
+        "A file and folder locker for Windows.",
+        "Pick files or folders and lock them, hide them so they cannot be found by name, or leave a stand-in that asks for your master password before it opens. Nothing is encrypted or rewritten, so locking is instant and unlocking puts everything back exactly as it was.",
+        "VeilForge is not encryption: it protects against normal use of your Windows account, not against an administrator, another operating system or disk tools. There is no password recovery."
       ],
-      "features": [],
+      "features": [
+        "Lock: the item stays in place but cannot be opened, listed, overwritten or deleted",
+        "Hide: the item is moved to a protected holding folder under a random name, so it cannot be found by name",
+        "Ask on open: a stand-in asks for the master password, opens the item, and protects it again when you close it",
+        "One list of protected items with groups, search, lock all and unlock all",
+        "Crash-safe journal; the item list is stored encrypted with rolling backups",
+        "Health check, repair and panic restore",
+        "Optional Explorer right-click menu",
+        "Unlocking restores location, name, permissions, attributes and dates exactly"
+      ],
       "specs": {
         "platform": "Windows 10 and 11 (64-bit)",
         "language": "Rust",
         "licence": "MIT",
-        "needs_admin": "To be announced",
-        "size": "To be announced"
+        "needs_admin": "No",
+        "size": "About 7 MB (EXE), 5 MB installer"
       },
-      "repo": "",
+      "repo": "zheerkhalid/veilforge",
       "accent": [
         "#3A445C",
         "#8B4FE6"
       ],
-      "icon": "",
-      "screenshots": [],
+      "icon": "https://raw.githubusercontent.com/zheerkhalid/veilforge/main/docs/assets/veilforge-icon.png",
+      "screenshots": [
+        "https://raw.githubusercontent.com/zheerkhalid/veilforge/main/docs/screenshots/main.png",
+        "https://raw.githubusercontent.com/zheerkhalid/veilforge/main/docs/screenshots/protect.png",
+        "https://raw.githubusercontent.com/zheerkhalid/veilforge/main/docs/screenshots/prompt.png",
+        "https://raw.githubusercontent.com/zheerkhalid/veilforge/main/docs/screenshots/details.png",
+        "https://raw.githubusercontent.com/zheerkhalid/veilforge/main/docs/screenshots/health.png",
+        "https://raw.githubusercontent.com/zheerkhalid/veilforge/main/docs/screenshots/unlock.png",
+        "https://raw.githubusercontent.com/zheerkhalid/veilforge/main/docs/screenshots/panic.png",
+        "https://raw.githubusercontent.com/zheerkhalid/veilforge/main/docs/screenshots/settings.png"
+      ],
       "assets": {
         "setup": "VeilForge-Setup.exe",
         "portable": "VeilForge-*-portable-x64.zip",
         "exe": "VeilForge.exe"
       },
       "detect": {
-        "inno_app_id": "",
+        "inno_app_id": "{6E0C3B7D-52A4-4F19-8C6E-9B1D7A2F4E53}",
         "display_name": "VeilForge"
       }
     },
