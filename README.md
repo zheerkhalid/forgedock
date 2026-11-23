@@ -17,7 +17,7 @@ Browse the apps with descriptions, screenshots and specifications, install them 
 </p>
 
 <p>
-  <img alt="Apps" src="https://img.shields.io/badge/apps-15%20available-6366F1?style=flat-square" />
+  <img alt="Apps" src="https://img.shields.io/badge/apps-20%20available-6366F1?style=flat-square" />
   <img alt="Source" src="https://img.shields.io/badge/downloads-GitHub%20releases%20only-10C98F?style=flat-square" />
   <img alt="Setup and portable" src="https://img.shields.io/badge/setup%20%2B%20portable-no%20runtimes-10C98F?style=flat-square" />
   <img alt="No telemetry" src="https://img.shields.io/badge/telemetry-none-10C98F?style=flat-square" />
@@ -102,6 +102,11 @@ Browse the apps with descriptions, screenshots and specifications, install them 
 | [SocketForge](https://github.com/zheerkhalid/socketforge) | Ports viewer and hosts-file editor |
 | [HourForge](https://github.com/zheerkhalid/hourforge) | Private automatic time tracker |
 | [VeilForge](https://github.com/zheerkhalid/veilforge) | File and folder locker |
+| [PrivacyForge](https://github.com/zheerkhalid/privacyforge) | Windows privacy and debloat, with undo |
+| [MetaForge](https://github.com/zheerkhalid/metaforge) | Metadata viewer and cleaner |
+| [DisplayForge](https://github.com/zheerkhalid/displayforge) | Monitor brightness, night light and profiles |
+| [PowerForge](https://github.com/zheerkhalid/powerforge) | Battery health, power plans and sleep diagnostics |
+| [EventForge](https://github.com/zheerkhalid/eventforge) | PC problems explained in plain language |
 
 ## 🖼️ Screenshots
 
@@ -144,6 +149,10 @@ Good to know:
 - This is a first release. Downloading, version checks and installed-app detection have been tested by running them; the Install, Update and Uninstall buttons have not yet been clicked through by hand.
 - "Update all" opens each installer as its download finishes, so several can be open at once.
 - ForgeDock does not update itself yet; get new versions from this page.
+
+## 📝 Changelog
+
+See [`CHANGELOG.md`](CHANGELOG.md).
 
 ## 🏗️ Build from source
 

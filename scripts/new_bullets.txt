@@ -1,0 +1,70 @@
+wireforge 1.1.0 (bullets already in add_apps.py WIRE_EXTRA)
+unforge 1.1.0:
+- Browser extensions tab: every add-on across Chrome, Edge, Brave, Vivaldi, Opera and Firefox, per profile
+- Changes tab: what was installed, updated or removed since UnForge was last opened
+- Warns when the program is still running and can close it before uninstalling
+- Right-click menus, full keyboard control, and correctly drawn Kurdish and Arabic names
+bootforge 1.1.0:
+- Windows 11 setup options: skip the TPM, Secure Boot and RAM checks, use a local account, skip the privacy questions
+- Finds the publisher's checksum file next to an image and verifies the download in one click
+- Recent images, and the PC stays awake until the write has finished
+keepforge 1.1.0:
+- Kurdish, Arabic, Persian and Hebrew titles, notes and tags displayed joined up and in reading order
+- Sort the list by title, recently changed or recently added, and move through it with the keyboard, straight from search
+- Drag-and-drop attachments, and a generator that remembers what you copied until the vault locks
+- Imports notes, cards and identities from more CSV exports; the dashboard flags unencrypted http:// logins
+findforge 1.1.0:
+- Look inside plain-text files on demand with content:text, in the window and on the command line
+- Kurdish, Arabic, Persian and Hebrew work throughout: joined text while typing and highlighted matches in names
+- The preview pane marks the text found inside a file
+- Remembers its window size; Open with on any result
+spaceforge 1.1.0:
+- Cleanup page: temp files, caches, crash dumps, old downloads and large old files; suggestions only, to the Recycle Bin after confirmation
+- What grew since last time: every scan is remembered and compared with the one before
+- Kurdish, Arabic, Persian and Hebrew file names drawn correctly
+- Drag a folder onto the window to scan it
+socketforge 1.1.0:
+- Serve any folder over HTTP in one click, with a live request list
+- Forward a local port to another address without administrator rights
+- Import block lists into the hosts file with de-duplication; long hosts files stay fast
+- See and flush the Windows DNS cache; add your own notes and favourites to ports
+shredforge 1.1.0:
+- Schedule: shred the Recycle Bin, wipe free space or empty a chosen folder daily, weekly or monthly, even when the app is closed
+- Small always-on-top drop window and paste of copied paths
+- Kurdish, Arabic, Persian and Hebrew file names shown correctly
+- SSD-aware confirmations and reports that count verified files
+reelforge 1.1.0:
+- Kurdish and Arabic file names, track titles and folders shown joined and in reading order
+- Drop a subtitle file onto its video to burn it in
+- Convert resumes where it stopped, and the finish line shows how much space was saved
+- Right-click menu, keyboard shortcuts, time left and taskbar progress
+twinforge 1.1.0:
+- Kurdish, Arabic, Persian and Hebrew file names shown correctly
+- Not a match: hide false matches for good, plus a large side-by-side picture compare
+- Reads iPhone HEIC, AVIF and camera RAW pictures through the Windows codecs
+- Smarter selection: Keep the original name and Keep the copies in this folder
+pulseforge 1.1.0:
+- Group processes by name: one summed row per program, plus details of the selected process
+- BitLocker state for every volume, without administrator rights
+- Alert history kept between runs; automatic clean-up of old CSV logs
+- Keyboard shortcuts, Copy summary, one running copy, window size and page remembered
+veilforge 1.1.0:
+- Hotkey that locks everything at once, also as VeilForge.exe --lock-now
+- Wrong-password log: tells you if someone tried while you were away
+- Kurdish, Arabic and other right-to-left names shown properly
+- Lock screen shows items still open and locks them in one click
+rescueforge 1.1.0:
+- Continue a stopped deep scan where it left off, even days later from a saved session
+- Deep scan now recognises 66 kinds of file
+- Preview RAW photos, song covers, the text of Office documents and the contents of ZIP archives before recovering
+- Kurdish, Arabic and other right-to-left names shown correctly; right-click menu and CSV export
+hourforge 1.1.0:
+- Kurdish, Arabic, Persian and Hebrew window titles and project names shown and typed correctly
+- Review page: sort programs and websites no rule knows yet with one click
+- Invoices (print or PDF), a billable switch per project, and calendar (.ics) export
+- Weekly summary notification, timeline search with #tags, and keyboard shortcuts
+snapforge 0.2.0:
+- Beautify: one-step gradient background, padding, rounded corners and shadow for screenshots
+- Hide Private Details: finds e-mails, phone numbers and card numbers and covers them, fully offline
+- Reads QR codes from any capture or selection
+- Searchable Capture History, including by text inside the picture

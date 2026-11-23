@@ -26,7 +26,11 @@
         "Pin captures as always-on-top windows, and Capture Text with Windows OCR",
         "Screen tools: colour picker, magnifier, crosshair, focus spotlight, calibrated ruler with protractor",
         "Combine images, convert images to a multi-page PDF, batch print",
-        "Command line automation, for example: SnapForge.exe --capture region --out clipboard"
+        "Command line automation, for example: SnapForge.exe --capture region --out clipboard",
+        "Beautify: one-step gradient background, padding, rounded corners and shadow for screenshots",
+        "Hide Private Details: finds e-mails, phone numbers and card numbers and covers them, fully offline",
+        "Reads QR codes from any capture or selection",
+        "Searchable Capture History, including by text inside the picture"
       ],
       "specs": {
         "platform": "Windows 10 and 11 (64-bit)",
@@ -84,7 +88,11 @@
         "Subtitles: burn in tracks from the file or load .srt / .ass / .ssa files, with right-to-left script support",
         "Parallel conversions, merge several files into one, or split by time",
         "Remux (change container) in seconds with no quality loss",
-        "Live progress, speed and the exact FFmpeg command log"
+        "Live progress, speed and the exact FFmpeg command log",
+        "Kurdish and Arabic file names, track titles and folders shown joined and in reading order",
+        "Drop a subtitle file onto its video to burn it in",
+        "Convert resumes where it stopped, and the finish line shows how much space was saved",
+        "Right-click menu, keyboard shortcuts, time left and taskbar progress"
       ],
       "specs": {
         "platform": "Windows 10 and 11 (64-bit)",
@@ -138,7 +146,11 @@
         "Startup manager: enable, disable or delete startup entries",
         "Broken entries: clean up programs that are listed but no longer there",
         "History: every uninstall is logged, with one-click registry restore",
-        "Export the program list to CSV or HTML"
+        "Export the program list to CSV or HTML",
+        "Browser extensions tab: every add-on across Chrome, Edge, Brave, Vivaldi, Opera and Firefox, per profile",
+        "Changes tab: what was installed, updated or removed since UnForge was last opened",
+        "Warns when the program is still running and can close it before uninstalling",
+        "Right-click menus, full keyboard control, and correctly drawn Kurdish and Arabic names"
       ],
       "specs": {
         "platform": "Windows 10 and 11 (64-bit)",
@@ -196,7 +208,11 @@
         "Security dashboard: weak, reused and old passwords at a glance",
         "Leaked password check against Pwned Passwords (k-anonymity) and email breach lookup",
         "Tools: strength tester, encrypt text or a file, file checksums, QR codes, secure shred",
-        "Import CSV exports from common browsers and password managers"
+        "Import CSV exports from common browsers and password managers",
+        "Kurdish, Arabic, Persian and Hebrew titles, notes and tags displayed joined up and in reading order",
+        "Sort the list by title, recently changed or recently added, and move through it with the keyboard, straight from search",
+        "Drag-and-drop attachments, and a generator that remembers what you copied until the vault locks",
+        "Imports notes, cards and identities from more CSV exports; the dashboard flags unencrypted http:// logins"
       ],
       "specs": {
         "platform": "Windows 10 and 11 (64-bit)",
@@ -252,7 +268,11 @@
         "Wipe free space so already-deleted files cannot be recovered",
         "Shred the contents of the Recycle Bin",
         "An erasure report for every job, as text, HTML and JSON",
-        "Command line with --dry-run, --list-methods, --list-drives and exit codes for scripts"
+        "Command line with --dry-run, --list-methods, --list-drives and exit codes for scripts",
+        "Schedule: shred the Recycle Bin, wipe free space or empty a chosen folder daily, weekly or monthly, even when the app is closed",
+        "Small always-on-top drop window and paste of copied paths",
+        "Kurdish, Arabic, Persian and Hebrew file names shown correctly",
+        "SSD-aware confirmations and reports that count verified files"
       ],
       "specs": {
         "platform": "Windows 10 and 11 (64-bit)",
@@ -309,7 +329,10 @@
         "Back up a USB drive to an image file, and restore it",
         "Reset a drive to a normal empty one (FAT32 or exFAT)",
         "Bad-block check that also detects fake-capacity drives",
-        "MD5, SHA-1 and SHA-256 checksums of any image, with compare"
+        "MD5, SHA-1 and SHA-256 checksums of any image, with compare",
+        "Windows 11 setup options: skip the TPM, Secure Boot and RAM checks, use a local account, skip the privacy questions",
+        "Finds the publisher's checksum file next to an image and verifies the download in one click",
+        "Recent images, and the PC stays awake until the write has finished"
       ],
       "specs": {
         "platform": "Windows 10 and 11 (64-bit)",
@@ -366,7 +389,10 @@
         "Devices on your network: IP, MAC, vendor, name, with an alert when a new device appears",
         "Ping with a live graph, traceroute, DNS lookup, port check, Wake-on-LAN, whois, subnet calculator",
         "Speed test: download, upload, latency and jitter with a history graph",
-        "Export any page to CSV, HTML or JSON"
+        "Export any page to CSV, HTML or JSON",
+        "Firewall: block an app from the internet in one click, for an hour, until restart or always",
+        "Optional alert when an app connects to the internet for the first time, with Allow or Block",
+        "Lockdown mode: only the apps you allow can go online"
       ],
       "specs": {
         "platform": "Windows 10 and 11 (64-bit)",
@@ -423,7 +449,11 @@
         "Smart selection: keep newest, oldest, largest, smallest, highest resolution and more",
         "Reference folders: files there are never selected",
         "Move to the Recycle Bin, move to a folder with undo, replace with hard links or symbolic links, or delete permanently",
-        "Export results to CSV, HTML or JSON, and a command line scan"
+        "Export results to CSV, HTML or JSON, and a command line scan",
+        "Kurdish, Arabic, Persian and Hebrew file names shown correctly",
+        "Not a match: hide false matches for good, plus a large side-by-side picture compare",
+        "Reads iPhone HEIC, AVIF and camera RAW pictures through the Windows codecs",
+        "Smarter selection: Keep the original name and Keep the copies in this folder"
       ],
       "specs": {
         "platform": "Windows 10 and 11 (64-bit)",
@@ -481,7 +511,11 @@
         "Sources: drives with a letter, whole physical disks and disk image files",
         "Create an image first, skipping bad sectors, then scan the image",
         "The source is always opened read-only, and each recovered file is checked by reading it back",
-        "Pause, resume and stop; save a scan and reopen it later without rescanning"
+        "Pause, resume and stop; save a scan and reopen it later without rescanning",
+        "Continue a stopped deep scan where it left off, even days later from a saved session",
+        "Deep scan now recognises 66 kinds of file",
+        "Preview RAW photos, song covers, the text of Office documents and the contents of ZIP archives before recovering",
+        "Kurdish, Arabic and other right-to-left names shown correctly; right-click menu and CSV export"
       ],
       "specs": {
         "platform": "Windows 10 and 11 (64-bit)",
@@ -538,7 +572,11 @@
         "Open, show in Explorer, copy path, properties",
         "Delete to the Recycle Bin or permanently, with a confirmation; totals update without a rescan",
         "Save a scan as a snapshot and compare two snapshots to see what grew and what shrank",
-        "Export to CSV, HTML or JSON, and a command line scan"
+        "Export to CSV, HTML or JSON, and a command line scan",
+        "Cleanup page: temp files, caches, crash dumps, old downloads and large old files; suggestions only, to the Recycle Bin after confirmation",
+        "What grew since last time: every scan is remembered and compared with the one before",
+        "Kurdish, Arabic, Persian and Hebrew file names drawn correctly",
+        "Drag a folder onto the window to scan it"
       ],
       "specs": {
         "platform": "Windows 10 and 11 (64-bit)",
@@ -595,7 +633,11 @@
         "Open, open containing folder, copy name or path, rename and delete (to the Recycle Bin)",
         "Export results to CSV or text; bookmarks and search history",
         "Global hotkey, tray icon and optional start with Windows",
-        "Command line: FindForge.exe -s \"query\" prints results"
+        "Command line: FindForge.exe -s \"query\" prints results",
+        "Look inside plain-text files on demand with content:text, in the window and on the command line",
+        "Kurdish, Arabic, Persian and Hebrew work throughout: joined text while typing and highlighted matches in names",
+        "The preview pane marks the text found inside a file",
+        "Remembers its window size; Open with on any result"
       ],
       "specs": {
         "platform": "Windows 10 and 11 (64-bit)",
@@ -651,7 +693,11 @@
         "System, BIOS, Secure Boot, TPM, Windows details and displays",
         "Sensors list and a live process table with end task",
         "Alerts, CSV logging and a full system report with masking of serial numbers",
-        "Tray icon with a live number and an optional mini widget"
+        "Tray icon with a live number and an optional mini widget",
+        "Group processes by name: one summed row per program, plus details of the selected process",
+        "BitLocker state for every volume, without administrator rights",
+        "Alert history kept between runs; automatic clean-up of old CSV logs",
+        "Keyboard shortcuts, Copy summary, one running copy, window size and page remembered"
       ],
       "specs": {
         "platform": "Windows 10 and 11 (64-bit)",
@@ -705,7 +751,11 @@
         "Crash-safe journal; the item list is stored encrypted with rolling backups",
         "Health check, repair and panic restore",
         "Optional Explorer right-click menu",
-        "Unlocking restores location, name, permissions, attributes and dates exactly"
+        "Unlocking restores location, name, permissions, attributes and dates exactly",
+        "Hotkey that locks everything at once, also as VeilForge.exe --lock-now",
+        "Wrong-password log: tells you if someone tried while you were away",
+        "Kurdish, Arabic and other right-to-left names shown properly",
+        "Lock screen shows items still open and locks them in one click"
       ],
       "specs": {
         "platform": "Windows 10 and 11 (64-bit)",
@@ -760,7 +810,11 @@
         "Hosts file editor: table view, enable and disable entries, duplicate and syntax checks",
         "Automatic timestamped hosts backups with one-click restore, and named profiles",
         "Firewall rules, port proxies, URL reservations, reserved ranges, Docker and WSL forwards (read-only)",
-        "Export to CSV, JSON and HTML; command line"
+        "Export to CSV, JSON and HTML; command line",
+        "Serve any folder over HTTP in one click, with a live request list",
+        "Forward a local port to another address without administrator rights",
+        "Import block lists into the hosts file with de-duplication; long hosts files stay fast",
+        "See and flush the Windows DNS cache; add your own notes and favourites to ports"
       ],
       "specs": {
         "platform": "Windows 10 and 11 (64-bit)",
@@ -815,7 +869,11 @@
         "Categories with editable rules; projects with timesheets, rounding and hourly rates",
         "Daily goals, limits on distracting categories, break reminders and a focus timer",
         "Privacy controls: pause, private apps, title redaction, delete any range",
-        "Export to CSV, JSON and HTML; command line export"
+        "Export to CSV, JSON and HTML; command line export",
+        "Kurdish, Arabic, Persian and Hebrew window titles and project names shown and typed correctly",
+        "Review page: sort programs and websites no rule knows yet with one click",
+        "Invoices (print or PDF), a billable switch per project, and calendar (.ics) export",
+        "Weekly summary notification, timeline search with #tags, and keyboard shortcuts"
       ],
       "specs": {
         "platform": "Windows 10 and 11 (64-bit)",
@@ -848,6 +906,298 @@
       "detect": {
         "inno_app_id": "{7C4E2B19-5A6D-4F83-B1E7-3D9A60C2F5A8}",
         "display_name": "HourForge"
+      }
+    },
+    {
+      "id": "privacyforge",
+      "name": "PrivacyForge",
+      "tagline": "See what Windows shares, switch it off, and undo any of it.",
+      "category": "System",
+      "status": "available",
+      "description": [
+        "A privacy and debloat tool for Windows 10 and 11.",
+        "PrivacyForge shows which Windows settings share data, show ads or run AI features, explains each one in plain words, and switches them off with one click. Every change is recorded, so it can be undone one by one or all at once.",
+        "It can also remove built-in apps you never use, and tells you when a Windows update has switched a setting back on."
+      ],
+      "features": [
+        "Privacy score and a one-click Apply recommended that shows every change first",
+        "Telemetry, diagnostic data, feedback prompts and the advertising ID",
+        "Ads and suggestions in Start, the lock screen, Explorer, Settings and notifications",
+        "Copilot, Recall, web search in Start, Widgets and activity history",
+        "App permissions: location, camera, microphone, contacts, calendar and more",
+        "135 settings in 12 categories, each explained, with a Recommended, Limited or Not recommended level",
+        "Remove built-in Store apps, with critical parts of Windows protected",
+        "Undo any single change or everything; restore point before big changes",
+        "Notices when a Windows update turned a setting back on",
+        "Profiles to export and import; a report of what changed"
+      ],
+      "specs": {
+        "platform": "Windows 10 and 11 (64-bit)",
+        "language": "Rust",
+        "licence": "MIT",
+        "needs_admin": "Only for PC-wide settings and removing apps for all users",
+        "size": "About 5 MB (EXE), 4 MB installer"
+      },
+      "repo": "zheerkhalid/privacyforge",
+      "accent": [
+        "#0B7A78",
+        "#F2B53A"
+      ],
+      "icon": "https://raw.githubusercontent.com/zheerkhalid/privacyforge/main/docs/assets/privacyforge-icon.png",
+      "screenshots": [
+        "https://raw.githubusercontent.com/zheerkhalid/privacyforge/main/docs/screenshots/about.png",
+        "https://raw.githubusercontent.com/zheerkhalid/privacyforge/main/docs/screenshots/apps.png",
+        "https://raw.githubusercontent.com/zheerkhalid/privacyforge/main/docs/screenshots/history.png",
+        "https://raw.githubusercontent.com/zheerkhalid/privacyforge/main/docs/screenshots/light-theme.png",
+        "https://raw.githubusercontent.com/zheerkhalid/privacyforge/main/docs/screenshots/overview.png",
+        "https://raw.githubusercontent.com/zheerkhalid/privacyforge/main/docs/screenshots/pending.png",
+        "https://raw.githubusercontent.com/zheerkhalid/privacyforge/main/docs/screenshots/preview.png",
+        "https://raw.githubusercontent.com/zheerkhalid/privacyforge/main/docs/screenshots/profiles.png",
+        "https://raw.githubusercontent.com/zheerkhalid/privacyforge/main/docs/screenshots/settings-ai.png",
+        "https://raw.githubusercontent.com/zheerkhalid/privacyforge/main/docs/screenshots/settings.png"
+      ],
+      "assets": {
+        "setup": "PrivacyForge-Setup.exe",
+        "portable": "PrivacyForge-*-portable-x64.zip",
+        "exe": "PrivacyForge.exe"
+      },
+      "detect": {
+        "inno_app_id": "{B3D6F1A2-7C4E-4E9B-9A15-2F8C61D0E7A4}",
+        "display_name": "PrivacyForge"
+      }
+    },
+    {
+      "id": "metaforge",
+      "name": "MetaForge",
+      "tagline": "See and remove the hidden information in your files before you share them.",
+      "category": "Security",
+      "status": "available",
+      "description": [
+        "A metadata viewer, editor and cleaner for Windows.",
+        "Photos can carry the place they were taken, documents the names of everyone who edited them, and downloads the address they came from. MetaForge shows this in plain language and removes it, file by file or a whole folder at once.",
+        "Photos are cleaned without re-encoding, so their quality does not change."
+      ],
+      "features": [
+        "A privacy badge on every file: location, names, device serials, comments or clean",
+        "Photos: EXIF, GPS, XMP, IPTC and PNG text, removed losslessly",
+        "Office documents and PDFs: authors, last saved by, comments, template paths",
+        "Audio and video tags: MP3, FLAC, M4A and MP4, including GPS from phones",
+        "The hidden 'downloaded from' note Windows adds to downloads",
+        "Clean for sharing presets, to the same file, a copy or another folder",
+        "Edit titles, authors, dates and GPS; compare two files",
+        "Export metadata to CSV or JSON",
+        "Optional Explorer right-click menu and a command line",
+        "Kurdish and Arabic file names shown correctly"
+      ],
+      "specs": {
+        "platform": "Windows 10 and 11 (64-bit)",
+        "language": "Rust",
+        "licence": "MIT",
+        "needs_admin": "No",
+        "size": "About 9 MB (EXE), 5 MB installer"
+      },
+      "repo": "zheerkhalid/metaforge",
+      "accent": [
+        "#2549D6",
+        "#2BD9A0"
+      ],
+      "icon": "https://raw.githubusercontent.com/zheerkhalid/metaforge/main/docs/assets/metaforge-icon.png",
+      "screenshots": [
+        "https://raw.githubusercontent.com/zheerkhalid/metaforge/main/docs/screenshots/clean.png",
+        "https://raw.githubusercontent.com/zheerkhalid/metaforge/main/docs/screenshots/compare.png",
+        "https://raw.githubusercontent.com/zheerkhalid/metaforge/main/docs/screenshots/dates.png",
+        "https://raw.githubusercontent.com/zheerkhalid/metaforge/main/docs/screenshots/document.png",
+        "https://raw.githubusercontent.com/zheerkhalid/metaforge/main/docs/screenshots/edit.png",
+        "https://raw.githubusercontent.com/zheerkhalid/metaforge/main/docs/screenshots/files.png",
+        "https://raw.githubusercontent.com/zheerkhalid/metaforge/main/docs/screenshots/kurdish.png",
+        "https://raw.githubusercontent.com/zheerkhalid/metaforge/main/docs/screenshots/light-theme.png",
+        "https://raw.githubusercontent.com/zheerkhalid/metaforge/main/docs/screenshots/media.png",
+        "https://raw.githubusercontent.com/zheerkhalid/metaforge/main/docs/screenshots/rename.png",
+        "https://raw.githubusercontent.com/zheerkhalid/metaforge/main/docs/screenshots/report.png",
+        "https://raw.githubusercontent.com/zheerkhalid/metaforge/main/docs/screenshots/settings.png"
+      ],
+      "assets": {
+        "setup": "MetaForge-Setup.exe",
+        "portable": "MetaForge-*-portable-x64.zip",
+        "exe": "MetaForge.exe"
+      },
+      "detect": {
+        "inno_app_id": "{4B8E2F61-93A7-4D0C-8E5B-27C1D9A46F30}",
+        "display_name": "MetaForge"
+      }
+    },
+    {
+      "id": "displayforge",
+      "name": "DisplayForge",
+      "tagline": "Brightness and colour for every monitor, from the tray.",
+      "category": "System",
+      "status": "available",
+      "description": [
+        "Monitor control for Windows: brightness and contrast for external monitors and laptop screens from one tray slider.",
+        "DisplayForge talks to external monitors over DDC/CI, so you no longer need the buttons on the back of the screen. It adds a warm night light, schedules that follow sunrise and sunset, and profiles that switch when you open a certain app."
+      ],
+      "features": [
+        "Tray slider per monitor, a link-all slider and quick presets",
+        "External monitors over DDC/CI: brightness, contrast, volume and input source",
+        "Laptop screen brightness",
+        "Dimming below the monitor's minimum",
+        "Night light with a colour temperature slider",
+        "Schedules by time or sunrise and sunset, with smooth transitions",
+        "Per-app profiles, hotkeys and idle dimming",
+        "Resolution and refresh rate with a confirm-or-revert countdown",
+        "Monitor details from EDID; identify monitors",
+        "Test patterns: dead pixels, uniformity, banding and colour bars"
+      ],
+      "specs": {
+        "platform": "Windows 10 and 11 (64-bit)",
+        "language": "Rust",
+        "licence": "MIT",
+        "needs_admin": "No",
+        "size": "About 5 MB (EXE), 4 MB installer"
+      },
+      "repo": "zheerkhalid/displayforge",
+      "accent": [
+        "#1F4FD6",
+        "#FFB82E"
+      ],
+      "icon": "https://raw.githubusercontent.com/zheerkhalid/displayforge/main/docs/assets/displayforge-icon.png",
+      "screenshots": [
+        "https://raw.githubusercontent.com/zheerkhalid/displayforge/main/docs/screenshots/about.png",
+        "https://raw.githubusercontent.com/zheerkhalid/displayforge/main/docs/screenshots/display-confirm.png",
+        "https://raw.githubusercontent.com/zheerkhalid/displayforge/main/docs/screenshots/display.png",
+        "https://raw.githubusercontent.com/zheerkhalid/displayforge/main/docs/screenshots/flyout.png",
+        "https://raw.githubusercontent.com/zheerkhalid/displayforge/main/docs/screenshots/info.png",
+        "https://raw.githubusercontent.com/zheerkhalid/displayforge/main/docs/screenshots/light-theme.png",
+        "https://raw.githubusercontent.com/zheerkhalid/displayforge/main/docs/screenshots/monitors.png",
+        "https://raw.githubusercontent.com/zheerkhalid/displayforge/main/docs/screenshots/profiles.png",
+        "https://raw.githubusercontent.com/zheerkhalid/displayforge/main/docs/screenshots/schedule.png",
+        "https://raw.githubusercontent.com/zheerkhalid/displayforge/main/docs/screenshots/settings.png",
+        "https://raw.githubusercontent.com/zheerkhalid/displayforge/main/docs/screenshots/tools.png"
+      ],
+      "assets": {
+        "setup": "DisplayForge-Setup.exe",
+        "portable": "DisplayForge-*-portable-x64.zip",
+        "exe": "DisplayForge.exe"
+      },
+      "detect": {
+        "inno_app_id": "{F250CAB3-BA9C-434B-8FCE-151D5CD5622A}",
+        "display_name": "DisplayForge"
+      }
+    },
+    {
+      "id": "powerforge",
+      "name": "PowerForge",
+      "tagline": "Battery health, power plans, keep-awake, and why your PC won't sleep.",
+      "category": "System",
+      "status": "available",
+      "description": [
+        "A power and battery tool for Windows laptops and desktops.",
+        "PowerForge shows how worn your battery is and how it changes over time, switches power plans automatically, keeps the PC awake when you need it, and explains in plain words what stops the PC from sleeping or what woke it up."
+      ],
+      "features": [
+        "Charge, live charge and discharge rate, time left",
+        "Battery health and cycle count, with a history of capacity over time",
+        "Charge-limit and low-battery reminders",
+        "Power plans with plain-language settings, switched automatically by power source or app",
+        "Keep awake: for a while, until a time, while an app runs or while a download is active",
+        "What is blocking sleep, what woke the PC, wake timers and devices allowed to wake it",
+        "Sleep and wake history",
+        "Energy report summarised in plain language",
+        "Estimated power use per app",
+        "Tray icon, reports to HTML or CSV, and a command line"
+      ],
+      "specs": {
+        "platform": "Windows 10 and 11 (64-bit)",
+        "language": "Rust",
+        "licence": "MIT",
+        "needs_admin": "Only for some sleep diagnostics and the energy report",
+        "size": "About 5 MB (EXE), 4 MB installer"
+      },
+      "repo": "zheerkhalid/powerforge",
+      "accent": [
+        "#0A5C6E",
+        "#F9C440"
+      ],
+      "icon": "https://raw.githubusercontent.com/zheerkhalid/powerforge/main/docs/assets/powerforge-icon.png",
+      "screenshots": [
+        "https://raw.githubusercontent.com/zheerkhalid/powerforge/main/docs/screenshots/about.png",
+        "https://raw.githubusercontent.com/zheerkhalid/powerforge/main/docs/screenshots/apps.png",
+        "https://raw.githubusercontent.com/zheerkhalid/powerforge/main/docs/screenshots/auto.png",
+        "https://raw.githubusercontent.com/zheerkhalid/powerforge/main/docs/screenshots/awake.png",
+        "https://raw.githubusercontent.com/zheerkhalid/powerforge/main/docs/screenshots/energy.png",
+        "https://raw.githubusercontent.com/zheerkhalid/powerforge/main/docs/screenshots/health.png",
+        "https://raw.githubusercontent.com/zheerkhalid/powerforge/main/docs/screenshots/light-theme.png",
+        "https://raw.githubusercontent.com/zheerkhalid/powerforge/main/docs/screenshots/overview.png",
+        "https://raw.githubusercontent.com/zheerkhalid/powerforge/main/docs/screenshots/plans.png",
+        "https://raw.githubusercontent.com/zheerkhalid/powerforge/main/docs/screenshots/settings.png",
+        "https://raw.githubusercontent.com/zheerkhalid/powerforge/main/docs/screenshots/sleep.png"
+      ],
+      "assets": {
+        "setup": "PowerForge-Setup.exe",
+        "portable": "PowerForge-*-portable-x64.zip",
+        "exe": "PowerForge.exe"
+      },
+      "detect": {
+        "inno_app_id": "{B3E61F2A-7C94-4D18-9A5E-2F0C8D41E7B6}",
+        "display_name": "PowerForge"
+      }
+    },
+    {
+      "id": "eventforge",
+      "name": "EventForge",
+      "tagline": "What went wrong on your PC, in plain language.",
+      "category": "System",
+      "status": "available",
+      "description": [
+        "Windows records every crash, blue screen and failed update in its event logs, but they are hard to read. EventForge reads them for you.",
+        "It shows how stable your PC has been, lists each problem with how serious it is and what probably caused it, and gives numbered steps to fix it. Technical details are one click away for those who want them."
+      ],
+      "features": [
+        "A stability score per day and a clear status on the home page",
+        "Blue screens, with the stop code explained and the minidump read",
+        "Unexpected shutdowns, app crashes and hangs, failed Windows updates",
+        "Disk, hardware and driver errors",
+        "Every problem explained: what happened, how serious, likely cause, how to fix",
+        "Repeats grouped, and apps ranked by how often they crash",
+        "A day-by-day timeline with search and filters",
+        "Startup and shutdown times",
+        "A report for support, with private details hidden"
+      ],
+      "specs": {
+        "platform": "Windows 10 and 11 (64-bit)",
+        "language": "Rust",
+        "licence": "MIT",
+        "needs_admin": "No (some logs need it, asked only when you choose)",
+        "size": "About 5 MB (EXE), 4 MB installer"
+      },
+      "repo": "zheerkhalid/eventforge",
+      "accent": [
+        "#3AA0F5",
+        "#E8466F"
+      ],
+      "icon": "https://raw.githubusercontent.com/zheerkhalid/eventforge/main/docs/assets/eventforge-icon.png",
+      "screenshots": [
+        "https://raw.githubusercontent.com/zheerkhalid/eventforge/main/docs/screenshots/about.png",
+        "https://raw.githubusercontent.com/zheerkhalid/eventforge/main/docs/screenshots/apps.png",
+        "https://raw.githubusercontent.com/zheerkhalid/eventforge/main/docs/screenshots/home.png",
+        "https://raw.githubusercontent.com/zheerkhalid/eventforge/main/docs/screenshots/issue-tech.png",
+        "https://raw.githubusercontent.com/zheerkhalid/eventforge/main/docs/screenshots/issue.png",
+        "https://raw.githubusercontent.com/zheerkhalid/eventforge/main/docs/screenshots/light-theme.png",
+        "https://raw.githubusercontent.com/zheerkhalid/eventforge/main/docs/screenshots/problems-apps.png",
+        "https://raw.githubusercontent.com/zheerkhalid/eventforge/main/docs/screenshots/problems.png",
+        "https://raw.githubusercontent.com/zheerkhalid/eventforge/main/docs/screenshots/report.png",
+        "https://raw.githubusercontent.com/zheerkhalid/eventforge/main/docs/screenshots/settings.png",
+        "https://raw.githubusercontent.com/zheerkhalid/eventforge/main/docs/screenshots/startup.png",
+        "https://raw.githubusercontent.com/zheerkhalid/eventforge/main/docs/screenshots/timeline.png"
+      ],
+      "assets": {
+        "setup": "EventForge-Setup.exe",
+        "portable": "EventForge-*-portable-x64.zip",
+        "exe": "EventForge.exe"
+      },
+      "detect": {
+        "inno_app_id": "{B3E6A2D4-91C7-4F58-8E1A-6D2F0C47A9E3}",
+        "display_name": "EventForge"
       }
     }
   ]

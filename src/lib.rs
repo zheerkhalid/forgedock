@@ -44,7 +44,12 @@ pub fn embedded_icon(id: &str) -> Option<&'static [u8]> {
         "pulseforge",
         "veilforge",
         "socketforge",
-        "hourforge"
+        "hourforge",
+        "privacyforge",
+        "metaforge",
+        "displayforge",
+        "powerforge",
+        "eventforge"
     )
 }
 

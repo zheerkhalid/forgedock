@@ -221,7 +221,7 @@ mod tests {
     #[test]
     fn embedded_catalog_is_valid() {
         let cat = Catalog::embedded();
-        assert!(cat.apps.len() >= 15);
+        assert!(cat.apps.len() >= 20);
         let rescue = cat.apps.iter().find(|a| a.id == "rescueforge").unwrap();
         assert_eq!(rescue.status, Status::Available);
         let snap = cat.apps.iter().find(|a| a.id == "snapforge").unwrap();
@@ -232,8 +232,8 @@ mod tests {
         assert_eq!(snap.accents().0, [0x4f, 0x6b, 0xff]);
         assert_eq!(
             cat.apps.iter().filter(|a| a.available()).count(),
-            15,
-            "fifteen published apps"
+            20,
+            "twenty published apps"
         );
         for app in cat.apps.iter().filter(|a| a.available()) {
             assert!(crate::net::is_allowed_fetch(&app.icon), "{}", app.icon);
